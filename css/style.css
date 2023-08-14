@@ -5,20 +5,19 @@
 
 #cabecalho-topo {
     width: 100%;
-    background-image: url('../img/bg-estrelado1.png');
+    height: 810px;
+    background-color: #43427E;
+    /* background-image: url('../img/bg-estrelado1.png'); */
 }
 
 #nav {
     width: 100%;
     align-items: center;
+    padding: 20px;
 }
 
 #txt-logo {
     color: #FFF3E9;
-}
-
-#logo-disney {
-    float: left;
 }
 
 .lista {
@@ -34,4 +33,20 @@
     font-size: 20px;
     list-style: none;
     padding: 0 20px;
+    text-decoration: none;
+}
+
+.itens-lista a {color: #8F3863; text-decoration: none;}
+.itens-lista:hover {text-decoration: underline; color: #8F3863; font-weight: bold;}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+#ttl-inicial{
+    color: #FFF3E9;
+    font-size: 62px;
+    text-align: center;
 }
