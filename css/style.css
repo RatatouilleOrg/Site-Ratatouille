@@ -50,3 +50,20 @@
     font-size: 62px;
     text-align: center;
 }
+
+#receitas{
+    background-color: #fff;
+}
+
+.brr-pesq{
+    width: 380px;
+    height: auto;
+    float: right;
+    background-color: #F8DEEF;
+    color: #8F3863;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.brr-pesq input{border: 0; width: 240px; border-radius: 20px; margin: 0;}
