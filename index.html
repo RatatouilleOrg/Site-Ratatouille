@@ -1,49 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratatouille</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style1.css">
+<title>Log In - Ratatouille</title>
 </head>
 
 <body>
-    <section id="cabecalho-topo">
-        <header>
-            <div class="container">
-                <nav id="nav" class="navbar">
-                    <h1 id="txt-logo">Ratatouille</h1>
-                    <ul class="lista">
-                        <li class="itens-lista"><a href="#">Receitas</a></li>
-                        <li class="itens-lista"><a href="#">Agendamento</a></li>
-                        <li class="itens-lista"><a href="#">Noticias</a></li>
-                        <li class="itens-lista"><a href="#">Fale conosco</a></li>
-                        <li class="itens-lista"><a href="#">Fórum</a></li>
-                        <li class="itens-lista"><a href="#">Outros</a></li>
-                    </ul>
-                </nav>
+    <!-- TELA DE CADASTRO -->
+
+    <!--VALIDAÇÃO DE LOGIN // teste [banco de dados]-->
+    <script src="scripts/mobile-navbar.js">
+        function logar(){
+            var login = document.getElementById('Nome de usuário').value;
+            var senha = document.getElementById('senha').value;
+
+            if (login == "Ingrid" && senha == "Sim"){
+                alert ("Sucesso");
+            }
+            else{
+                alert("Usuário ou senha incorretos");
+            }
+        }
+    </script>
+
+    <section class="area-login">
+        <div class="login">
+            <div>
+                <img src="https://i.pinimg.com/originals/20/fe/2e/20fe2eb39d9746a932653548f1cd9f90.png">
             </div>
-        </header>
-
-        <div id="inicio">
-            <h2 id="ttl-inicial">LEVE MAGIA PARA A<br>SUA CRIANÇA!</h2>
-        </div>
-    </section>
-
-    <section id="receitas">
-        <div class="brr-pesq">
-            <img src="" alt="">
-            <form>
-                <input type="text" class="form-control" placeholder="O que você está procurando?">
+            <form method="POST" action="index.html">
+                <input type="text" name="name" placeholder="Nome de usuário" id="login" autofocus>
+                <input type="password" name="senha" placeholder="Senha" id="senha">
+                <input type="submit" value="Entrar">
             </form>
+            <p> Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
         </div>
-
-        <div></div>
-
     </section>
-    
 </body>
 </html>
