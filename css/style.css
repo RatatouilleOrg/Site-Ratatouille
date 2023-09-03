@@ -58,22 +58,25 @@
 
 
 /*                            Seção das Receitas                            */
-/* #receitas{
-    background-color: #fff;
-} */
-
-/* -- Barra de pesquisa */
-.brr-pesq{
-    width: 100%;
-    float: right;
-    color: #8F3863;
-    border-radius: 15px;
-    margin: 60px 20px 60px 0;
-    display: block;
+#receitas{
+    margin-top: 110px;
 }
 
-.brr-pesq input {border: 0; width: 240px; border-radius: 20px; background-color: #F8DEEF;}
-input.form-control {margin: 0 12px 22px 110px; height: 36px; width: 300px; text-align: right;}
+/* -- Barra de pesquisa */
+.brr-pesq {
+    width: 300px;
+    float: right;
+    color: #8F3863;
+    border: medium solid #F8DEEF;
+    border-radius: 20px;
+    background-color: #F8DEEF;
+    margin-top: 60px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.brr-pesq input {border: 0; width: 260px; border-radius: 20px; background-color: #F8DEEF;}
+input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: right;}
 
 /* -- Bp */
 
@@ -82,24 +85,25 @@ input.form-control {margin: 0 12px 22px 110px; height: 36px; width: 300px; text-
     background: url(../img/toy-story.jpg) center center / 100% no-repeat ; /* Não está funcionando */
 }
 
-.grades {
-    padding: 10px;
-}
-
 .ttl-secções {
     font-size: 50px;
     color: #7C1D41;
     margin-bottom: 60px;
 }
 
+.grades {
+    width: 1290px;
+}
+
 .caixa {
-    display: inline-flex;
+    display: grid;
     justify-content: center;
+    align-items: center;
     margin: 10px auto;
     float: left;
 }
 
-.carde {
+.cardR {
     display: inline-flex;
     width: 420px;
     padding: 10px;
@@ -107,12 +111,12 @@ input.form-control {margin: 0 12px 22px 110px; height: 36px; width: 300px; text-
     align-items: center;
 }
 
-.carde {text-decoration: none; color: #843C60;}
-.carde h3:hover {transition: color 0.3s; text-decoration: underline; color: #7e214f;}
-.carde img {margin: 10px; width: 120px; height: 120px; border: medium solid #843C60; border-radius: 15px;}
-.carde h3 {width: 200px; margin: 10px; padding: 5px;}
+.cardR {text-decoration: none; color: #843C60;}
+.cardR h3:hover {transition: color 0.3s; text-decoration: underline; color: #7e214f;}
+.cardR img {margin: 10px; width: 120px; height: 120px; border: medium solid #843C60; border-radius: 15px;}
+.cardR h3 {width: 200px; margin: 10px; padding: 5px;}
 
-.carde img, .carde h3 {margin: 10px;}
+.cardR img, .cardR h3 {margin: 10px;}
 
 /* -- GR */
 #holley {
@@ -142,6 +146,10 @@ input.form-control {margin: 0 12px 22px 110px; height: 36px; width: 300px; text-
     #cardbody{
         margin: 2rem 0rem 2rem 0rem;
     }
+}
+
+#caixa-imagens {
+    align-items: center;
 }
 
 /*                                   SP                                   */
