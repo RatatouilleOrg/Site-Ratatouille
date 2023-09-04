@@ -21,13 +21,11 @@
 .lista {
     background-color: #FFF3E9;
     border-radius: 20px;
-    height: 48px;
     padding: 10px 20px;
     margin-bottom: 0;
 }
 
 .itens-lista {
-    width: auto;
     float: left;
     color: #8F3863;
     font-size: 20px;
@@ -93,8 +91,7 @@ input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: 
 
 .caixa {
     display: grid;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
     margin: 10px auto;
     float: left;
 }
@@ -103,8 +100,7 @@ input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: 
     display: inline-flex;
     width: 350px;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
 }
 
 .cardR {text-decoration: none; color: #843C60;}
@@ -146,8 +142,7 @@ input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: 
 
 #caixa-imagens {
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    place-items: center;
     position: absolute;
     margin-bottom: 350px;
 }
