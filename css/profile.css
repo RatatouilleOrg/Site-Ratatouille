@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head-topo {
+    display: grid;
+    max-width: 1080px;
+    justify-content: center;
+    margin: 0 /* por enquanto */ auto;
+}
+
+#navegar {
+    display: inline-flex;
+    height: 100px;
+    place-items: center;
+    margin: 0 /* por enquanto */ auto;
+}
+
+#logos {
+    display: grid;
+    float: left;
+    margin-right: auto;
+}
+
+#n-links {
+    display: inline-flex;
+    float: right;
+}
+
+#itens-da-nav {
+    float: left;
+}
+
+#acessos {
+    float: right;
+}
