@@ -3,35 +3,52 @@
     padding: 0;
 }
 
+/* Seção do Topo */
+
 #head-topo {
     display: grid;
-    max-width: 1080px;
+    max-width: 100%;
     justify-content: center;
-    margin: 0 /* por enquanto */ auto;
 }
 
 #navegar {
+    width: 1280px;
     display: inline-flex;
     height: 100px;
     place-items: center;
-    margin: 0 /* por enquanto */ auto;
 }
 
 #logos {
     display: grid;
     float: left;
-    margin-right: auto;
+    color: #43427E;
 }
 
 #n-links {
     display: inline-flex;
+    gap: 20px;
     float: right;
+    align-items: center;
+    padding-bottom: 10px;
 }
 
 #itens-da-nav {
     float: left;
+    display: inline-grid;
+    gap: 10px;
 }
 
 #acessos {
     float: right;
 }
+
+#acessos a {padding: 0 2px;}
+
+.nav-items {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.nav-items a {text-decoration: none; color: #843c60;}
+
+/* - ST */
