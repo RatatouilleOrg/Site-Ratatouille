@@ -52,3 +52,65 @@
 .nav-items a {text-decoration: none; color: #843c60;}
 
 /* - ST */
+
+/* Aba de Perfil */
+
+#aba-perfil {
+    display: flex;
+    max-width: 100%;
+    height: 150px;
+    justify-content: center;
+}
+
+#caixa-do-perfil {
+    width: 1280px;
+    display: inline-grid;
+    place-items: center;
+    border: solid medium red;
+}
+
+#caixa-do-perfil hr {height: 10px; color: #8F3863;}
+
+#perfil-links {
+    width: 800px;
+    display: inline-flex;
+    float: left;
+    margin-right: auto;
+}
+
+#area-perfil {
+    width: 1280px;
+    display: inline-flex;
+    background-color: lavender;
+}
+
+#area-perfil h2 {font-size: 20px; color: #843C60;}
+#area-perfil h3 {font-size: 15px; margin-bottom: 0; color: #43427E;}
+
+#perfil-1 {
+    display: inline-flex;
+    float: left;
+    margin-right: auto;
+    justify-content: left;
+}
+
+#sub-perfil-1 {
+    float: left;
+    justify-content: left;
+    margin-right: 10px;
+}
+
+#sub-perfil-2 {
+    float: right;
+}
+
+#perfil-2 {
+    display: inline-flex;
+    float: right;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+/* - AdP */

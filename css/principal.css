@@ -6,7 +6,7 @@
 /*                              Parte do topo                              */
 #cabecalho-topo {
     height: 810px;
-    background-image: url('../img/bg-tela_principal.jpg');
+    background-image: url('../img/principal/bg-tela_principal.jpg');
 }
 /* -- Elementos do navegador */
 #nav {
@@ -80,7 +80,7 @@ input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: 
 
 /* -- Grade das Receitas */
 #receitas {
-    background: url(../img/toy-story.jpg) center center / 100% no-repeat ; /* Não está funcionando */
+    background: url(../img/principal/toy-story.jpg) center center / 100% no-repeat ; /* Não está funcionando */
 }
 
 .ttl-secções {
