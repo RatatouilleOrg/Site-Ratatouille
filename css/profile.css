@@ -63,7 +63,7 @@
 }
 
 #caixa-do-perfil {
-    width: 1280px;
+    width: 1286px;
     display: inline-grid;
     place-items: center;
     border: solid medium red;
@@ -78,8 +78,12 @@
     margin-right: auto;
 }
 
+#perfil-links h2 {font-size: 20px;}
+
 #area-perfil {
     width: 1280px;
+    height: 100px;
+    place-items: center;
     display: inline-flex;
     background-color: lavender;
 }
