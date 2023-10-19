@@ -38,6 +38,10 @@
     gap: 10px;
 }
 
+.nav {
+    gap: 14px;
+}
+
 #acessos {
     float: right;
 }
@@ -45,11 +49,12 @@
 #acessos a {padding: 0 2px;}
 
 .nav-items {
-    padding: 0 10px;
     font-size: 20px;
 }
 
-.nav-items a {text-decoration: none; color: #843c60;}
+.nav-items a {text-decoration: none; color: #843c60; font-weight: 500;}
+.nav-items a:hover {transition: color 0.3s; color: #551e3a;}
+
 
 /* - ST */
 
@@ -68,16 +73,20 @@
     place-items: center;
 }
 
-#caixa-do-perfil hr {height: 10px; color: #8F3863;}
+#caixa-do-perfil hr {margin: 0;padding: 0 5px ; height: 5px; background-color: #8f3863; width: 99.5%;}
 
 #perfil-links {
-    width: 800px;
     display: inline-flex;
     float: left;
     margin-right: auto;
+    gap: 5px;
+    font-size: 20px;
+    padding-left: 6px;
+    color: #843C60;
 }
 
-#perfil-links h2 {font-size: 20px;}
+#perfil-links a {font-size: 20px; text-decoration: none; color: #843C60; font-weight: 500;}
+#perfil-links a:hover {transition: color 0.3s; color: #551e3a;}
 
 #area-perfil {
     width: 1280px;
@@ -85,6 +94,7 @@
     place-items: center;
     display: inline-flex;
     background-color: lavender;
+    padding: 5px;
 }
 
 #area-perfil h2 {font-size: 20px; color: #843C60;}
@@ -114,6 +124,7 @@
     align-items: center;
     position: relative;
     top: 0;
+    margin-bottom: 60px;
 }
 
 /* - AdP */
