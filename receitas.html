@@ -16,31 +16,50 @@
 </head>
 
 <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
-        <!-- Logo -->
-        <img src="img/walt-diseny-logo-2.png" class="rounded float-start" alt="..." id="logo">
-        <!-- Conteúdo -->
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Link das outras páginas -->
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#" id="itensNavbar"> Home </a>
-                    <a class="nav-link active" aria-current="page" href="#" id="itensNavbar">Receitas</a>
-                    <a class="nav-link" href="#" id="itensNavbar">Agendamento</a>
-                    <a class="nav-link" href="#" id="itensNavbar">Notícias</a>
-                    <a class="nav-link" href="#" id="itensNavbar">Fale Conosco</a>
-                    <a class="nav-link" href="#" id="itensNavbar">Outros</a>
-                </div>
+    <!-- NavBar -->
+    <div class="container">
+        <div class="row">
+            <div class="col justify-content-center">
+
+                <nav id="main-nav" class="navbar navbar-expand-sm">
+                    <div class="container-fluid">
+                      <a id="txt-logo" class="navbar-brand h1 mb-0" href="#">Ratatouille</a>
+                      <button id="button-color" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+                        <ul id="lista" class="nav mb-2 mb-lg-0 ms-auto float-md-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Receitas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Agendamento</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notí­cias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Fale conosco</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                    Outros
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+
             </div>
-            <a class="nav-link float-end" href="#" id="itensNavbar"><img src="img/a_disc/profile.png" alt="..."></a>
-            <a class="nav-link float-end" href="#" id="itensNavbar"><img src="img/a_disc/exit.png" alt="..."></a>
         </div>
-    </nav>
+    </div>
 
     <!-- Título -->
     <div id="titulo">
@@ -63,61 +82,48 @@
                     minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus debitis
                     maxime
                     veritatis!</p>
-                <!-- Ingredientes -->
-                <p>
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1"
-                        aria-expanded="false" aria-controls="collapseWidthExample" id="botao">
+                <!-- Collapse Ingredientes -->
+                <p class="d-inline-flex gap-1">
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample1" id="botao">
                         Ingredientes
                         <img src="img/a_disc/three_dots.png" alt="">
                     </button>
                 </p>
-                <div>
-                    <div class="collapse collapse-horizontal" id="collapseWidthExample1">
-                        <div class="card card-body" style="width: 700px;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores nam quae iure rem
-                            corporis
-                            beatae temporibus officiis magnam quisquam eligendi qui veniam repudiandae, consequuntur
-                            fugiat
-                            asperiores aut quo? Est.
-                        </div>
+                <div class="collapse" id="collapseExample1">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component. This panel is hidden by default but
+                        revealed when the user activates the relevant trigger.
                     </div>
                 </div>
-                <!-- Modo de Preparo -->
-                <p>
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2"
-                        aria-expanded="false" aria-controls="collapseWidthExample" id="botao">
+                <br>
+                <!-- Collapse Modo de Preparo -->
+                <p class="d-inline-flex gap-1">
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample2" id="botao">
                         Modo de Preparo
                         <img src="img/a_disc/three_dots.png" alt="">
                     </button>
                 </p>
-                <div>
-                    <div class="collapse collapse-horizontal" id="collapseWidthExample2">
-                        <div class="card card-body" style="width: 700px;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores nam quae iure rem
-                            corporis
-                            beatae temporibus officiis magnam quisquam eligendi qui veniam repudiandae, consequuntur
-                            fugiat
-                            asperiores aut quo? Est.
-                        </div>
+                <div class="collapse" id="collapseExample2">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component. This panel is hidden by default but
+                        revealed when the user activates the relevant trigger.
                     </div>
                 </div>
-                <!-- Mais informações -->
-                <p>
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3"
-                        aria-expanded="false" aria-controls="collapseWidthExample" id="botao">
+                <br>
+                <!-- Collapse Mais informações -->
+                <p class="d-inline-flex gap-1">
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
+                        aria-expanded="false" aria-controls="collapseExample3" id="botao">
                         Mais informações
                         <img src="img/a_disc/three_dots.png" alt="">
                     </button>
                 </p>
-                <div>
-                    <div class="collapse collapse-horizontal" id="collapseWidthExample3">
-                        <div class="card card-body" style="width: 700px;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores nam quae iure rem
-                            corporis
-                            beatae temporibus officiis magnam quisquam eligendi qui veniam repudiandae, consequuntur
-                            fugiat
-                            asperiores aut quo? Est.
-                        </div>
+                <div class="collapse" id="collapseExample3">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component. This panel is hidden by default but
+                        revealed when the user activates the relevant trigger.
                     </div>
                 </div>
             </div>
@@ -125,7 +131,7 @@
         <!-- Imagem da Direita -->
         <img src="img/principal/bing-bong.png" class="rounded float-end" alt="..." id="imgright">
     </div>
-
+    </div>
 </body>
 
 </html>

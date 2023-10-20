@@ -1,9 +1,15 @@
 @media screen and (min-width: 577px) { /*Estilização para telas grandes*/
+    body{
+        margin: 0px 5px 0px 10px;
+    }
     #navbar{
         padding-top: 20px;
     }
     #itensNavbar{
-        padding: 0px 10px 0px 10px;
+        padding: 0px 20px 0px 20px;
+    }
+    #imgsNavbar{
+        padding: 0px 20px 0px 20px;
     }
     #titulo{
         color: #8F3863;
@@ -22,11 +28,36 @@
     #imgright{
         margin-top: -80px;
     }
+    #descricao{
+        float: right;
+    }
 }
 
 @media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
-
+    #navbar{
+        padding-top: 10px;
+    }
+    #itensNavbar{
+        padding: 10px 0px 10px 0px;
+    }
+    #imgsNavbar{
+        padding: 10px 0px 10px 0px;
+    }
+    #titulo{
+        color: #8F3863;
+        background-color: #eee6ea;
+        border-radius: 2px;
+        margin: 10px 10px 10px 0px;
+        padding: 5px 0px 5px 10px;
+    }
+    #text{
+        width: fit-content;
+        text-align: justify;
+        margin: 0px 15px 0px 15px;
+        float: left;
+    }
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -40,3 +71,31 @@
 #botao{
     color: #8F3863;
 }
+/* Estilização Navbar*/
+#main-nav {
+    margin-top: 20px;
+}
+
+#txt-logo {
+    color: #000000;
+    font-size: 40px;
+}
+
+#lista {
+    background-color: #FFF3E9;
+    border: solid 2px #FFF3E9;
+    border-radius: 20px;
+    float: right;
+}
+
+.navbar-toggler-icon {background-image: url(../img/principal/menu_hamburguer.svg);}
+
+#button-color {color: rgba(255, 243, 233, 0.4); border-color: rgba(255, 243, 233, 0.4);}
+
+.nav-link {font-size: 20px; color: #8F3863;}
+.dropdown-item {color: #8F3863;}
+
+.nav-link:hover, .dropdown-item {color: #5e133a;}
+.nav-link:visited, .dropdown-item {color: #5e133a;} /* Possível mudança após paleta */
+
+.dropdown-menu {background-color: #FFF3E9;}
