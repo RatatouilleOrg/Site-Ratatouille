@@ -1,7 +1,42 @@
-@media screen and (min-width: 577px) { /*Estilização do carrossel para telas grandes*/
-
+@media screen and (min-width: 577px) { /*Estilização para telas grandes*/
+    #navbar{
+        padding-top: 20px;
+    }
+    #itensNavbar{
+        padding: 0px 10px 0px 10px;
+    }
+    #titulo{
+        color: #8F3863;
+        background-color: #eee6ea;
+        width: fit-content;
+        border-radius: 2px;
+        margin: 40px 0px 40px 30px;
+        padding: 5px 900px 5px 15px;
+    }
+    #text{
+        width: 800px;
+        text-align: justify;
+        padding-left: 100px;
+        float: left;
+    }
+    #imgright{
+        margin-top: -80px;
+    }
 }
 
-@media screen and (max-width: 576px) { /*Estilização do carrossel para telas pequenas*/
+@media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
 
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: #8F3863;
+}
+/* Logo */
+#logo{
+    width: 100px;
+    height: 70px;
+}
+#botao{
+    color: #8F3863;
 }

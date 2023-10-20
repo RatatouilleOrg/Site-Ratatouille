@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas</title>
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Link para o CSS -->
     <link rel="stylesheet" href="css/receitas.css">
 </head>
+
 <body>
-    
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <!-- Logo -->
+        <img src="img/walt-diseny-logo-2.png" class="rounded float-start" alt="..." id="logo">
+        <!-- Conteúdo -->
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Link das outras páginas -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#" id="itensNavbar"> Home </a>
+                    <a class="nav-link active" aria-current="page" href="#" id="itensNavbar">Receitas</a>
+                    <a class="nav-link" href="#" id="itensNavbar">Agendamento</a>
+                    <a class="nav-link" href="#" id="itensNavbar">Notícias</a>
+                    <a class="nav-link" href="#" id="itensNavbar">Fale Conosco</a>
+                    <a class="nav-link" href="#" id="itensNavbar">Outros</a>
+                </div>
+            </div>
+            <a class="nav-link float-end" href="#" id="itensNavbar"><img src="img/a_disc/profile.png" alt="..."></a>
+            <a class="nav-link float-end" href="#" id="itensNavbar"><img src="img/a_disc/exit.png" alt="..."></a>
+        </div>
+    </nav>
+
+    <!-- Título -->
+    <div id="titulo">
+        <h1> Nome da comida </h1>
+    </div>
+    <!-- Div geral da Receita -->
+    <div id="receitasinfo">
+        <!-- Imagem da Esquerda -->
+        <img src="img/principal/bing-bong.png" class="rounded float-start" alt="..." id="imgleft">
+        <div id="info">
+            <div id="text">
+                <!-- Texto -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati et, omnis, consectetur
+                    perferendis
+                    minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus debitis
+                    maxime
+                    veritatis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati et, omnis, consectetur
+                    perferendis
+                    minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus debitis
+                    maxime
+                    veritatis!</p>
+                <!-- Ingredientes -->
+                <p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1"
+                        aria-expanded="false" aria-controls="collapseWidthExample" id="botao">
+                        Ingredientes
+                        <img src="img/a_disc/three_dots.png" alt="">
+                    </button>
+                </p>
+                <div>
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                        <div class="card card-body" style="width: 700px;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores nam quae iure rem
+                            corporis
+                            beatae temporibus officiis magnam quisquam eligendi qui veniam repudiandae, consequuntur
+                            fugiat
+                            asperiores aut quo? Est.
+                        </div>
+                    </div>
+                </div>
+                <!-- Modo de Preparo -->
+                <p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2"
+                        aria-expanded="false" aria-controls="collapseWidthExample" id="botao">
+                        Modo de Preparo
+                        <img src="img/a_disc/three_dots.png" alt="">
+                    </button>
+                </p>
+                <div>
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                        <div class="card card-body" style="width: 700px;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores nam quae iure rem
+                            corporis
+                            beatae temporibus officiis magnam quisquam eligendi qui veniam repudiandae, consequuntur
+                            fugiat
+                            asperiores aut quo? Est.
+                        </div>
+                    </div>
+                </div>
+                <!-- Mais informações -->
+                <p>
+                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3"
+                        aria-expanded="false" aria-controls="collapseWidthExample" id="botao">
+                        Mais informações
+                        <img src="img/a_disc/three_dots.png" alt="">
+                    </button>
+                </p>
+                <div>
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                        <div class="card card-body" style="width: 700px;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores nam quae iure rem
+                            corporis
+                            beatae temporibus officiis magnam quisquam eligendi qui veniam repudiandae, consequuntur
+                            fugiat
+                            asperiores aut quo? Est.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Imagem da Direita -->
+        <img src="img/principal/bing-bong.png" class="rounded float-end" alt="..." id="imgright">
+    </div>
+
 </body>
+
 </html>
