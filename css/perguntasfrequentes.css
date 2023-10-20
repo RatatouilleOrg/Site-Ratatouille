@@ -1,10 +1,11 @@
 /* Estilização NavBar(Padronizado) */
 #main-nav {
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 #txt-logo {
-    color: #FFF3E9;
+    color: #000000;
     font-size: 40px;
 }
 
@@ -27,11 +28,52 @@
 
 .dropdown-menu {background-color: #FFF3E9;}
 
+body{
+    color: #5e133a;
+}
+
 /* Responsividade */
 @media screen and (min-width: 577px) { /*Estilização para telas grandes*/
-    
+    body{
+        margin: 0px 0px 0px 50px;
+    }
+    #titulo{
+        margin: 0px 0px 60px 0px;
+    }
+    #barra{
+        display: flex;
+        background-color: #f57e7d;
+        opacity: 20%;
+        border-radius: 2px;
+        width: 700px;
+        height: 50px;
+    }
+    #perg{
+        display: inline-block;
+        margin: 0px 30px 50px 10px;
+    }
 }
 
 @media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
-    
+    body{
+        margin: 0px 0px 0px 0px;
+    }
+    #corpo{
+        margin: 0px 0px 0px 30px;
+    }
+    #titulo{
+        margin: 0px 0px 30px 0px;
+    }
+    #barra{
+        display: flex;
+        background-color: #f57e7d;
+        opacity: 20%;
+        border-radius: 2px;
+        width: 350px;
+        height: 30px;
+    }
+    #perg{
+        display: inline-block;
+        margin: 0px 0px 35px 0px;
+    }
 }
