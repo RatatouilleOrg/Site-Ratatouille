@@ -20,24 +20,14 @@
     font-size: 40px;
 }
 
-.lista {
+#lista {
     background-color: #FFF3E9;
     border-radius: 20px;
-    padding: 10px 20px;
-    margin-bottom: 0;
+    float: right;
 }
 
-.itens-lista {
-    float: left;
-    color: #8F3863;
-    font-size: 20px;
-    list-style: none;
-    padding: 0 20px;
-    text-decoration: none;
-}
+a.nav-link {font-size: 20px; color: #8F3863;}
 
-.itens-lista a {color: #8F3863; text-decoration: none;} 
-.itens-lista a:hover {transition: color 0.3s; text-decoration: underline; color: #520c2f;}
 /* -- En */
 
 /* -- Texto principal */
