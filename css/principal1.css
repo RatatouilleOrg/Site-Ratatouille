@@ -16,6 +16,7 @@
 #txt-logo {
     color: #FFF3E9;
     font-size: 40px;
+    place-items: center;
 }
 
 #lista-1 {
