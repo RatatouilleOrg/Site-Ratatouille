@@ -10,8 +10,8 @@ body{
 #logo{
     width: 140px;
     height: 90px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 #itens{
     margin: 0px 30px 0px 30px;
@@ -26,10 +26,10 @@ body{
 /*Estilização para telas grandes*/
 @media screen and (min-width: 577px) { 
     #corpo{
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 4%;
     }
     #titulo{
-        margin: 0px 0px 60px 0px;
+        margin: 0px 0px 4% 0px;
     }
     #barra{
         display: flex;
