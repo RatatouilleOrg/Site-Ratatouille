@@ -1,4 +1,158 @@
 #pfp {
-    max-width: 5%;
     object-fit: contain;
 }
+
+#area-perfil {
+    width: 130vh;
+    min-height: 10vh;
+    place-items: center;
+    background-color: lavender;
+    padding: 0.5vh;
+}
+
+#area-perfil h2 {font-size: 2vh; color: #843C60;}
+#area-perfil h3 {font-size: 1.5vh; margin-bottom: 0; color: #43427E;}
+
+#perfil-1 {
+    display: inline-flex;
+    float: left;
+    margin-right: auto;
+    justify-content: left;
+}
+
+#sub-perfil-1 {
+    float: left;
+    justify-content: left;
+    margin-right: 1vh;
+}
+
+#sub-perfil-2 {
+    float: right;
+}
+
+#perfil-2 {
+    display: inline-flex;
+    float: right;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    top: 0;
+    margin-bottom: 6vh;
+}
+
+@media screen and (min-width: 577px) { /*Estilização para telas grandes*/
+    body{
+        margin: 0vh 0.5vh 0vh 1vh;
+    }
+    #navbar{
+        padding-top: 2vh;
+    }
+    #itensNavbar{
+        padding: 0vh 2vh 0vh 2vh;
+    }
+    #imgsNavbar{
+        padding: 0vh 2vh 0vh 2vh;
+    }
+    #titulo{
+        width: fit-content;
+        text-wrap: nowrap;
+        border-radius: 0.2vh;
+        margin: 4vh 0vh 4vh 3vh;
+        padding: 5vh 90vh 5vh 1.5vh;
+    }
+    #text{
+        width: 50%;
+        text-align: justify;
+        float: center;
+    }
+    #imgright{
+        margin-top: -8vh;
+    }
+    #descricao{
+        float: right;
+    }
+}
+
+@media screen and (max-width: 576px) { /*Estilização para telas grandes*/
+    body{
+        margin: 0vh 0.5vh 0vh 1vh;
+    }
+    #navbar{
+        padding-top: 2vh;
+    }
+    #itensNavbar{
+        padding: 0vh 2vh 0vh 2vh;
+    }
+    #imgsNavbar{
+        padding: 0vh 2vh 0vh 2vh;
+    }
+    #titulo{
+        width: fit-content;
+        text-wrap: nowrap;
+        border-radius: 0.2vh;
+        margin: 4vh 0vh 4vh 3vh;
+        padding: 5vh 90vh 5vh 1.5vh;
+    }
+    #text{
+        width: 50%;
+        text-align: justify;
+        float: center;
+    }
+    #imgright{
+        margin-top: -8vh;
+    }
+    #descricao{
+        float: right;
+    }
+}
+
+#interacao {
+    width: fit-content;
+    float: center;
+    gap: 0.5vh;
+    font-size: 2vh;
+    color: #843C60;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #8F3863;
+}
+/* Logo */
+#logo{
+    width: 10vh;
+    height: 7vh;
+}
+#botao{
+    color: #8F3863;
+}
+/* Estilização Navbar*/
+#main-nav {
+    margin-top: 2vh;
+}
+
+#txt-logo {
+    color: #000000;
+    font-size: 4vh;
+}
+
+#lista {
+    background-color: #FFF3E9;
+    border: solid 0.2vh #FFF3E9;
+    border-radius: 2vh;
+    float: right;
+}
+
+.navbar-toggler-icon {background-image: url(../img/principal/menu_hamburguer.svg);}
+
+#button-color {color: rgba(255, 243, 233, 0.4); border-color: rgba(255, 243, 233, 0.4);}
+
+.nav-link {font-size: 20px; color: #8F3863;}
+.dropdown-item {color: #8F3863;}
+
+.nav-link:hover, .dropdown-item {color: #5e133a;}
+.nav-link:visited, .dropdown-item {color: #5e133a;} /* Possível mudança após paleta */
+
+.dropdown-menu {background-color: #FFF3E9;}
