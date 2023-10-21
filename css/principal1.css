@@ -44,14 +44,13 @@
 
 #lista-2 .nav-link {color: #FFF3E9;}
 #lista-2 .nav-link:hover {color: #f67e7d;}
+#lista-2 .nav-link:focus {color: #f67e7d;}
 
 /* -- En */
 
 /* -- Texto principal */
 #inicio{
-    display: flex;
-    justify-content: center;
-    margin-top: 250px;
+    margin-top: 250px!important;
 }
 
 #ttl-inicial{
@@ -96,6 +95,7 @@ input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: 
     font-size: 50px;
     color: #7C1D41;
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .caixa {
