@@ -3,7 +3,7 @@ body{
     color: #5e133a;
 }
 
-/* Estilização do NavBar */
+/* Estilização da NavBar */
 #navbar{
     padding-top: 5px;
 }
@@ -13,13 +13,20 @@ body{
     margin-right: 10%;
     margin-left: 10%;
 }
+#ul{
+    width: 100%;
+}
+#lista{
+    margin: 0% 2% 0% 2%;
+    
+}
 #itens{
-    margin: 0px 30px 0px 30px;
     color: #8F3863;
     font-size: 20px;
 }
+
 #imgitens{
-    margin: 0px 30px 0px 30px;
+    margin: 0px 30px 0px 30px; 
 }
 
 /* Responsividade */
@@ -31,6 +38,10 @@ body{
     #titulo{
         margin: 0px 0px 4% 0px;
     }
+    #perg{
+        display: inline-block;
+        margin: 0px 30px 50px 10px;
+    }
     #barra{
         display: flex;
         background-color: #f57e7d;
@@ -38,10 +49,6 @@ body{
         border-radius: 2px;
         width: 700px;
         height: 50px;
-    }
-    #perg{
-        display: inline-block;
-        margin: 0px 30px 50px 10px;
     }
 }
 
@@ -56,6 +63,10 @@ body{
     #titulo{
         margin: 0px 0px 30px 0px;
     }
+    #perg{
+        display: inline-block;
+        margin: 0px 0px 35px 0px;
+    }
     #barra{
         display: flex;
         background-color: #f57e7d;
@@ -63,10 +74,6 @@ body{
         border-radius: 2px;
         width: 350px;
         height: 30px;
-    }
-    #perg{
-        display: inline-block;
-        margin: 0px 0px 35px 0px;
     }
     #itens{
         margin: 0px 0ch 0px 30px;
