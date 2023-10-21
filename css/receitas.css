@@ -1,15 +1,31 @@
-@media screen and (min-width: 577px) { /*Estilização para telas grandes*/
-    body{
+/* Estilização do NavBar */
+#navbar{
+    padding-top: 5px;
+}
+#logo{
+    width: 140px;
+    height: 90px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#itens{
+    margin: 0px 30px 0px 30px;
+    color: #8F3863;
+    font-size: 20px;
+}
+#imgitens{
+    margin: 0px 30px 0px 30px;
+}
+
+/* Estilização do Botão */
+#botao{
+    color: #8F3863;
+}
+
+/*Estilização para telas grandes*/
+@media screen and (min-width: 577px) { 
+    #corpo{
         margin: 0px 5px 0px 10px;
-    }
-    #navbar{
-        padding-top: 20px;
-    }
-    #itensNavbar{
-        padding: 0px 20px 0px 20px;
-    }
-    #imgsNavbar{
-        padding: 0px 20px 0px 20px;
     }
     #titulo{
         color: #8F3863;
@@ -33,19 +49,11 @@
     }
 }
 
-@media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
-    #navbar{
-        padding-top: 10px;
-    }
-    #itensNavbar{
-        padding: 10px 0px 10px 0px;
-    }
-    #imgsNavbar{
-        padding: 10px 0px 10px 0px;
-    }
+/*Estilização para telas pequenas*/
+@media screen and (max-width: 576px) { 
     #titulo{
         color: #8F3863;
-        background-color: #f57e7d;
+        background-color: #eee6ea;
         border-radius: 2px;
         margin: 10px 10px 10px 0px;
         padding: 5px 0px 5px 10px;
@@ -56,46 +64,10 @@
         margin: 0px 15px 0px 15px;
         float: left;
     }
+    #itens{
+        margin: 0px 0px 0px 30px;
+    }
+    #imgitens{
+        margin: 0px 0px 0px 30px;
+    }
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    color: #8F3863;
-}
-/* Logo */
-#logo{
-    width: 100px;
-    height: 70px;
-}
-#botao{
-    color: #8F3863;
-}
-/* Estilização Navbar*/
-#main-nav {
-    margin-top: 20px;
-}
-
-#txt-logo {
-    color: #000000;
-    font-size: 40px;
-}
-
-#lista {
-    background-color: #FFF3E9;
-    border: solid 2px #FFF3E9;
-    border-radius: 20px;
-    float: right;
-}
-
-.navbar-toggler-icon {background-image: url(../img/principal/menu_hamburguer.svg);}
-
-#button-color {color: rgba(255, 243, 233, 0.4); border-color: rgba(255, 243, 233, 0.4);}
-
-.nav-link {font-size: 20px; color: #8F3863;}
-.dropdown-item {color: #8F3863;}
-
-.nav-link:hover, .dropdown-item {color: #5e133a;}
-.nav-link:visited, .dropdown-item {color: #5e133a;} /* Possível mudança após paleta */
-
-.dropdown-menu {background-color: #FFF3E9;}

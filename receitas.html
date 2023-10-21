@@ -17,119 +17,117 @@
 
 <body>
     <!-- NavBar -->
-    <div class="container">
-        <div class="row">
-            <div class="col justify-content-center">
-
-                <nav id="main-nav" class="navbar navbar-expand-sm">
-                    <div class="container-fluid">
-                      <a id="txt-logo" class="navbar-brand h1 mb-0" href="#">Ratatouille</a>
-                      <button id="button-color" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-
-                      <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
-                        <ul id="lista" class="nav mb-2 mb-lg-0 ms-auto float-md-end">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Receitas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Agendamento</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Notí­cias</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Fale conosco</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                    Outros
-                                </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                            </li>
-                        </ul>
-                      </div>
-                    </div>
-                </nav>
-
+    <!-- Começo da NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img src="img/walt-diseny-logo-2.png" alt="" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="itens">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="itens">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="itens">Agendamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="itens">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="itens">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="itens">Outro</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a class="nav-link" href="#" id="imgitens"> <img src="img/a_disc/profile.png" alt=""></a>
+                </span>
             </div>
         </div>
-    </div>
-
+    </nav>
+    <!-- Fim da Navbar -->
     <!-- Título -->
-    <div id="titulo">
-        <h1> Nome da comida </h1>
-    </div>
-    <!-- Div geral da Receita -->
-    <div id="receitasinfo">
-        <!-- Imagem da Esquerda -->
-        <img src="img/principal/bing-bong.png" class="rounded float-start" alt="..." id="imgleft">
-        <div id="info">
-            <div id="text">
-                <!-- Texto -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati et, omnis, consectetur
-                    perferendis
-                    minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus debitis
-                    maxime
-                    veritatis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati et, omnis, consectetur
-                    perferendis
-                    minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus debitis
-                    maxime
-                    veritatis!</p>
-                <!-- Collapse Ingredientes -->
-                <p class="d-inline-flex gap-1">
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
-                        aria-expanded="false" aria-controls="collapseExample1" id="botao">
-                        Ingredientes
-                        <img src="img/a_disc/three_dots.png" alt="">
-                    </button>
-                </p>
-                <div class="collapse" id="collapseExample1">
-                    <div class="card card-body">
-                        Some placeholder content for the collapse component. This panel is hidden by default but
-                        revealed when the user activates the relevant trigger.
+    <div id="corpo">
+        <div id="titulo">
+            <h1> Nome da comida </h1>
+        </div>
+        <!-- Div geral da Receita -->
+        <div id="receitasinfo">
+            <!-- Imagem da Esquerda -->
+            <img src="img/principal/bing-bong.png" class="rounded float-start" alt="..." id="imgleft">
+            <div id="info">
+                <div id="text">
+                    <!-- Texto -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati et, omnis, consectetur
+                        perferendis
+                        minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus
+                        debitis
+                        maxime
+                        veritatis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati et, omnis, consectetur
+                        perferendis
+                        minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus
+                        debitis
+                        maxime
+                        veritatis!</p>
+                    <!-- Collapse Ingredientes -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1" id="botao">
+                            Ingredientes
+                            <img src="img/a_disc/three_dots.png" alt="">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1">
+                        <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but
+                            revealed when the user activates the relevant trigger.
+                        </div>
                     </div>
-                </div>
-                <br>
-                <!-- Collapse Modo de Preparo -->
-                <p class="d-inline-flex gap-1">
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
-                        aria-expanded="false" aria-controls="collapseExample2" id="botao">
-                        Modo de Preparo
-                        <img src="img/a_disc/three_dots.png" alt="">
-                    </button>
-                </p>
-                <div class="collapse" id="collapseExample2">
-                    <div class="card card-body">
-                        Some placeholder content for the collapse component. This panel is hidden by default but
-                        revealed when the user activates the relevant trigger.
+                    <br>
+                    <!-- Collapse Modo de Preparo -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample2" id="botao">
+                            Modo de Preparo
+                            <img src="img/a_disc/three_dots.png" alt="">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but
+                            revealed when the user activates the relevant trigger.
+                        </div>
                     </div>
-                </div>
-                <br>
-                <!-- Collapse Mais informações -->
-                <p class="d-inline-flex gap-1">
-                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
-                        aria-expanded="false" aria-controls="collapseExample3" id="botao">
-                        Mais informações
-                        <img src="img/a_disc/three_dots.png" alt="">
-                    </button>
-                </p>
-                <div class="collapse" id="collapseExample3">
-                    <div class="card card-body">
-                        Some placeholder content for the collapse component. This panel is hidden by default but
-                        revealed when the user activates the relevant trigger.
+                    <br>
+                    <!-- Collapse Mais informações -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
+                            aria-expanded="false" aria-controls="collapseExample3" id="botao">
+                            Mais informações
+                            <img src="img/a_disc/three_dots.png" alt="">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but
+                            revealed when the user activates the relevant trigger.
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- Imagem da Direita -->
+            <img src="img/principal/bing-bong.png" class="rounded float-end" alt="..." id="imgright">
         </div>
-        <!-- Imagem da Direita -->
-        <img src="img/principal/bing-bong.png" class="rounded float-end" alt="..." id="imgright">
     </div>
     </div>
 </body>
