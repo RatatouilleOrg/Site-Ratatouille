@@ -8,10 +8,13 @@
     margin-right: 12.5%;
 }
 
-@media screen and (min-width: 577px) { /* Tela Grande */
+@media screen and (min-width: 769px) { /* Tela Grande */
+    #total {
+        margin-left: -60%;
+    }
+
     #logodiv {
         padding-top: 10%; 
-        margin-left: -60%;
     }
 
     #logoimg {
@@ -23,27 +26,24 @@
     }
     
     #titulo {
-        margin-left: -60%;
         font-size: 400%;
     }
     #subtitulo {
-        margin-left: -60%;
         font-size: 120%;
-    }
-    #formulario {
-        margin-left: -60%;
     }
 
     #cadastro{
-        margin-left: -60%;
         font-size: 80%;
     }
 }
 
-@media screen and (max-width: 576px) { /* Tela Pequena */
+@media screen and (max-width: 768px) { /* Tela Pequena */
+    #total {
+        margin-left: 0%;
+    }
+    
     #logodiv {
         padding-top: 30%; 
-        margin-left: 0%;
     }
 
     #logoimg {
@@ -55,20 +55,17 @@
     }
     
     #titulo {
-        margin-left: 0%;
         font-size: 300%;
     }
     #subtitulo {
-        margin-left: 0%;
         font-size: 120%;
     }
+    
     #formulario {
         padding-top: 5%; 
-        margin-left: 0%;
     }
 
     #cadastro{
-        margin-left: 0%;
         font-size: 80%;
         
     }
