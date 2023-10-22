@@ -1,0 +1,41 @@
+img{
+    float: left;
+    width: 50px;
+}
+h4{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.textdra{
+    font-style: italic;
+    font-size: 15px;
+    text-align: justify;
+}
+.dramoa{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width:500px ;
+    min-width: none;
+    float: left;
+   
+}
+.draur{
+    float:  right;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width:764px ;
+    min-width: none;
+}
+.user{
+    float: left;
+    max-width: 500px;
+    min-width: none;
+    margin-right: 10px;
+    margin-left: 10px;
+   margin-top: -10px;
+}
+.agnes{
+    width: 300px;
+}
