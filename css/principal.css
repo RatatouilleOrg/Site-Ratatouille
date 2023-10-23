@@ -33,9 +33,6 @@
 
 .nav-link:hover {color: #f67e7d;}
 
-/* .dropdown-menu {background-color: #FFF3E9;}
-.dropdown-item {color: #8F3863;} */
-
 #lista-2 {
     background-color: #843b62;
     border: solid 2px #843b62;
@@ -49,14 +46,9 @@
 /* -- En */
 
 /* -- Texto principal */
-#inicio{
-    margin-top: 250px!important;
-}
-
 #ttl-inicial{
     color: #FFF3E9;
     text-align: center;
-    font-size: 55px;
 }
 /* -- Tp */
 
@@ -67,22 +59,6 @@
 #receitas{
     margin-top: 150px;
 }
-
-/* -- Barra de pesquisa */
-/* .brr-pesq {
-    width: 320px;
-    float: right;
-    color: #8F3863;
-    border-radius: 20px;
-    background-color: #F8DEEF;
-    margin: 60px 0 30px;
-    padding: 4px;
-    display: inline-flex;
-    align-items: center;
-}
-
-.brr-pesq input {border: 0; width: 260px; border-radius: 20px; background-color: #F8DEEF;}
-input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: right;} */
 
 /* -- Bp */
 
@@ -141,6 +117,14 @@ input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: 
         margin: 2rem 10rem 2rem 10rem;
     }
 
+    #inicio {
+        margin-top: 250px;
+    }
+
+    #ttl-inicial {
+        font-size: 62px;
+    }
+
     .ttl-secções {
         font-size: 50px;
     }
@@ -148,15 +132,24 @@ input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: 
 
 @media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
     #cardbody{
-        margin: 2rem 0rem 2rem 0rem;
+        margin: 2rem 0rem;
+    }
+
+    .card {
+        width: 240px;
+        margin: 0 auto;
+    }
+
+    #inicio {
+        margin-top: 150px;
     }
 
     #ttl-inicial {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .ttl-secções {
-        font-size: 40px;
+        font-size: 35px;
         margin-bottom: 30px;
     }
 
@@ -169,6 +162,10 @@ input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: 
     #holly {
         width: 150px!important;
         height: auto!important;
+    }
+
+    #txt-logo {
+        display: block!important;
     }
 }
 
