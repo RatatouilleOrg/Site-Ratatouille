@@ -1,0 +1,109 @@
+/* Estilização da NavBar */
+#navbar{
+    padding-top: 5px;
+}
+#logo{
+    width: 140px;
+    height: 90px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#ul{
+    width: 100%;
+}
+#lista{
+    margin: 0% 2% 0% 2%;
+
+}
+#itens{
+    color: #8F3863;
+    font-size: 20px;
+}
+
+#imgitens{
+    margin: 0px 30px 0px 30px; 
+}
+@media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
+    #itens{
+        margin: 0px 0px 0px 30px;
+    }
+    #imgitens{
+        margin: 0px 0px 0px 30px;
+    }
+} 
+
+img{
+    float: left;
+    width: 50px;
+}
+h4{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.textdra{
+    font-style: italic;
+    font-size: 15px;
+    text-align: justify;
+}
+.dramoa{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width:500px ;
+    min-width: none;
+    float: left;
+   
+}
+.draur{
+    float:  right;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width:764px ;
+    min-width: none;
+}
+.user{
+    float: left;
+    max-width: 500px;
+    min-width: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.agnes{
+    width: 300px;
+}
+
+/* Fim da NavBar */
+
+#nome-usuario {
+    font-size: 31px;
+    text-align: center;
+}
+
+@media screen and (min-width: 577px) { /* Tela Grande */
+    #pfp {
+        margin: 5rem;
+    }
+
+    #nome-usuario {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (max-width: 576px) { /* Tela Pequena */
+    #pfp {
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    #nome-usuario {
+        font-size: 4vh;
+    }
+
+    #foto-perfil {
+        margin-inline: auto;
+        width: 40vh;
+        height: 40vh;
+    }
+}
