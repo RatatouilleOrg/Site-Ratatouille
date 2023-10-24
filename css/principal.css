@@ -112,6 +112,20 @@
 .card-body h5, .card-body p  {color: #843C60;}
 .card-body:hover {transition: color 0.3s; text-decoration: underline; color: #5e2240;}
 
+#sulivan {
+    float: left;
+}
+
+#bing-bong {
+    float: right;
+}
+
+
+/*                                   SP                                   */
+
+
+
+/* RESPONSIVIDADE */
 @media screen and (min-width: 577px) { /*Estilização para telas grandes*/
     #profs{
         margin: 2rem 10rem 2rem 10rem;
@@ -169,12 +183,4 @@
     }
 }
 
-#caixa-imagens {
-    display: inline-flex;
-    place-items: center;
-    position: absolute;
-    margin-bottom: 350px;
-}
 
-
-/*                                   SP                                   */
