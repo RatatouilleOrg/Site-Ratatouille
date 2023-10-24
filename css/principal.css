@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root{
+    --cor-dos-textos: #843C60;
+}
+
 /*                              Parte do topo                              */
 #cabecalho-topo {
     height: 910px;
@@ -120,9 +124,18 @@
     float: right;
 }
 
+.main-cor-texto {
+    color: var(--cor-dos-textos)!important;
+}
+
 
 /*                                   SP                                   */
 
+/* Rodapé */
+#rodape {
+    background-color: var(--bs-secondary-bg);
+}
+/* RP */
 
 
 /* RESPONSIVIDADE */
@@ -141,6 +154,14 @@
 
     .ttl-secções {
         font-size: 50px;
+    }
+
+    #rodape-1 {
+        display: inline-flex;
+    }
+
+    #contatos {
+        width: 520px;
     }
 }
 
@@ -180,6 +201,10 @@
 
     #txt-logo {
         display: block!important;
+    }
+
+    #rodape-1 {
+        margin: 0 auto!important;
     }
 }
 
