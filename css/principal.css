@@ -107,7 +107,6 @@
 
 /*                         Seção dos Profissionais                         */
 #profissionais {
-    margin-top: 50px;
     background: #fff;/* É só pra não desmerecer a propriedade*/
 }
 
@@ -130,6 +129,20 @@
 
 
 /*                                   SP                                   */
+
+/* Conheço o Fórum */
+#area-figs-forums {
+    display: inline-flex;
+}
+
+.caixa-forum {
+    border: solid 5px var(--cor-dos-textos);
+}
+
+.card-body:hover {
+    text-decoration: none;
+}
+/* CoF */
 
 /* Rodapé */
 #rodape {
@@ -156,12 +169,12 @@
         font-size: 50px;
     }
 
-    #rodape-1 {
-        display: inline-flex;
+    .caixa-forum {
+        width: 700px;
     }
 
-    #contatos {
-        width: 520px;
+    #rodape-1 {
+        display: inline-flex;
     }
 }
 
@@ -203,8 +216,28 @@
         display: block!important;
     }
 
+    #bing-bong {
+        display: none;
+    }
+
+    #area-figs-forums {
+        display: grid;
+    }
+
+    #clawdeen {
+        display: none!important;
+    }
+
     #rodape-1 {
         margin: 0 auto!important;
+    }
+
+    #monstrinho-rosa {
+        display: none;
+    }
+
+    #contatos .nav-link {
+        font-size: 12px;
     }
 }
 
