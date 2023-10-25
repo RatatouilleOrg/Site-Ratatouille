@@ -1,0 +1,33 @@
+/* Estilização da NavBar */
+#navbar{
+    padding-top: 5px;
+}
+#logo{
+    width: 140px;
+    height: 90px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#ul{
+    width: 100%;
+}
+#lista{
+    margin: 0% 4% 0% 4%;
+    
+}
+#itens{
+    color: #8F3863;
+    font-size: 20px;
+}
+
+#imgitens{
+    margin: 0px 30px 0px 30px; 
+}
+@media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
+    #itens{
+        margin: 0px 0px 0px 30px;
+    }
+    #imgitens{
+        margin: 0px 0px 0px 30px;
+    }
+}

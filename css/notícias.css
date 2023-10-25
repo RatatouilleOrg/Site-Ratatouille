@@ -1,0 +1,152 @@
+/* Estilização da NavBar */
+#navbar {
+    padding-top: 5px;
+}
+
+#logo {
+    width: 140px;
+    height: 90px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#ul {
+    width: 100%;
+}
+
+.item-lista{
+    margin: 0% 4%;
+}
+
+.itens {
+    color: #8F3863;
+    font-size: 20px;
+}
+
+#dropdown-pessoa .dropdown-menu {
+    min-width: 90px;
+}
+
+#imgitens {
+    margin: 0px 30px; 
+}
+
+/* Carde */
+.borda-imagem {
+    border: solid 3px var(--cor-seco);
+}
+
+.borda-hr {
+    margin: 10px 0 3px;
+}
+
+/* Tabela */
+#tabelas {
+    width: 70%;
+}
+
+.espaco-tr {
+    width: 25%;
+}
+
+#text-agendamento {
+    width: 30%;
+}
+
+/* Body */
+body{
+    color: #8F3863;
+}
+#titulo{
+    margin: 1% 0% 2% 3%;
+}
+#tag{
+    color: blue;
+}
+p{
+    text-align: justify;
+}
+#ali{
+    color: inherit;
+    text-decoration: none;
+}
+#ali:hover{
+    text-decoration: underline;
+}
+/* Geral */
+#pri{
+    background-color: #e2e3e5;
+}
+#seg{
+    background-color: #e2e3e5;
+}   
+/*Estilização para telas grandes*/
+@media screen and (min-width: 577px) { 
+    #noticias{
+        margin: 1% 0% 2% 3%;
+    }
+    #pri{
+        width: 80%;
+        height: fit-content;
+        margin-bottom: 3%;
+        padding: 2px 0% 0% 0%;
+    }
+    #PergFreq{
+        margin: 0% 0% 2% 1%;
+    }
+    #AutNut{
+        margin: 0% 0% 0% 1%;
+        width: 30%;
+    }
+    #user{
+        margin-top: -20px;
+    }
+    #text{
+        margin: 0% 1% 0% 1%;
+        width: 60%;
+    }
+    #seg{
+        width: 80%;
+        height: fit-content;
+        margin-bottom: 3%;
+        padding: 2px 0% 0% 0%;
+    }
+    #imp{
+        margin: 0% 0% 0% 1%;
+        width: 30%;
+    }
+    p{
+        width: 80%;
+    }
+}
+/*Estilização para telas pequenas*/
+@media screen and (max-width: 576px) { 
+    #noticias{
+        margin: 10% 0% 2% 0%;
+    }
+    #pri{
+        height: fit-content;
+        margin-bottom: 2%;
+        padding: 2px 0% 0% 0%;
+    }
+    #PergFreq{
+        margin: 0% 0% 2% 4%;
+    }
+    #AutNut{
+        margin: 0% 2% 0% 1%;
+    }
+    #user{
+        margin-top: -10px;
+    }
+    #text{
+        margin: 0% 3% 0% 3%;
+    }
+    #seg{
+        height: fit-content;
+        margin-bottom: 2%;
+        padding: 2px 0% 0% 0%;
+    }
+    #imp{
+        margin: 0% 0% 0% 1%;
+    }
+}
