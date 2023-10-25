@@ -107,6 +107,8 @@ h4{
         min-width: none;
         max-width: 90%;
         font-size: 2vh;
+        background-color: #8F3863;
+        color: white;
     }
 
     #seu-perfil {
@@ -123,7 +125,7 @@ h4{
 
     #info {
         margin-inline: auto;
-        font-size: 3vh;
+        font-size: 2.5vh;
         width: min-content;
     }
 
@@ -166,5 +168,14 @@ h4{
 
     #dropdowns {
         margin-top: 4vh;
+        width: fit-content;
+    }
+
+    #info {
+        width: fit-content;
+    }
+
+    #textos {
+        flex-direction: column;
     }
 }
