@@ -1,0 +1,63 @@
+#navbar {
+    padding-top: 5px;
+}
+
+#logo {
+    width: 140px;
+    height: 90px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#ul {
+    width: 100%;
+}
+
+.item-lista {
+    margin: 0% 4%;
+}
+
+.itens {
+    color: #8F3863;
+    font-size: 20px;
+}
+
+#dropdown-pessoa .dropdown-menu {
+    min-width: 90px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: var(--bs-secondary-bg)!important;
+    color: var(--cor-thir)!important;
+}
+
+@media screen and (min-width: 577px) { /*Estilização para telas grandes*/
+    #imgitens {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
+    #imgitens {
+        float: left;
+    }
+}
+
+/* ROOT */
+:root {
+    --cor-main: #7C1D41;
+    --cor-seco: #8F3863;
+    --cor-thir: #43427E;
+}
+
+.cor-prima {
+    color: var(--cor-main);
+}
+
+.cor-secun {
+    color: var(--cor-seco)!important;
+}
+
+.cor-terci {
+    color: var(--cor-thir)!important;
+}

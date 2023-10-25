@@ -71,7 +71,7 @@
 
 /* -- Grade das Receitas */
 #receitas {
-    background: url(../img/principal/toy-story.jpg) center center / 100% no-repeat ; /* Não está funcionando */
+    background: url(../img/principal/toy-story.jpg) center center / 100% no-repeat; /* Não está funcionando */
 }
 
 .ttl-secções {
@@ -247,5 +247,3 @@
         font-size: 12px;
     }
 }
-
-

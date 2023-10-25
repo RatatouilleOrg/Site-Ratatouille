@@ -1,58 +1,12 @@
+@import url(navbar_pags.css);
+
 * {
     margin: 0;
     padding: 0;
 }
 
-:root {
-    --cor-main: #7C1D41;
-    --cor-seco: #8F3863;
-    --cor-thir: #43427E;
-}
-
-.cor-prima {
-    color: var(--cor-main);
-}
-
-.cor-secun {
-    color: var(--cor-seco)!important;
-}
-
-.cor-terci {
-    color: var(--cor-thir)!important;
-}
-
 /* Navegador */
-#navbar {
-    padding-top: 5px;
-}
 
-#logo {
-    width: 140px;
-    height: 90px;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-
-#ul {
-    width: 100%;
-}
-
-.item-lista{
-    margin: 0% 4%;
-}
-
-.itens {
-    color: #8F3863;
-    font-size: 20px;
-}
-
-#dropdown-pessoa .dropdown-menu {
-    min-width: 90px;
-}
-
-#imgitens {
-    margin: 0px 30px; 
-}
 
 /* Carde */
 .borda-imagem {
@@ -87,9 +41,7 @@
     #itens{
         margin: 0px 0px 0px 30px;
     }
-    #imgitens{
-        margin: 0px 0px 0px 30px;
-    }
+    /*  */
 
     #tabelas {
         width: 90%;

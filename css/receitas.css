@@ -1,0 +1,57 @@
+@import url(navbar_pags.css);
+
+/* Estilização da NavBar */
+
+/*Estilização para telas grandes*/
+@media screen and (min-width: 577px) { 
+    #corpo-receita{
+        margin: 0% 1% 0% 2%;
+    }
+    #titulo{
+        color: #8F3863;
+        background-color: #eee6ea;
+        width: fit-content;
+        border-radius: 2px;
+        margin: 40px 0px 40px 30px;
+        padding: 1% 40% 1% 1%;
+    }
+    #text{
+        width: 56%;
+        text-align: justify;
+        padding-left: 8%;
+        float: left;
+    }
+    #imgright{
+        /* margin-top: -80px; */
+        margin-top: -8%;
+    }
+    #descricao{
+        float: right;
+    }
+}
+
+/*Estilização para telas pequenas*/
+@media screen and (max-width: 576px) { 
+    #titulo {
+        color: #8F3863;
+        background-color: #eee6ea;
+        border-radius: 2px;
+        margin: 10px 10px 10px 0px;
+        padding: 1% 0% 1% 2%;
+    }
+    
+    #text {
+        width: fit-content;
+        text-align: justify;
+        margin: 0px 15px 0px 15px;
+        float: left;
+    }
+    
+    #itens {
+        margin: 0px 0px 0px 30px;
+    }
+    
+    #imgitens {
+        margin: 0px 0px 0px 30px;
+    }
+}
