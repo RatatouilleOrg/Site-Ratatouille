@@ -14,11 +14,11 @@
 }
 
 .cor-secun {
-    color: var(--cor-seco);
+    color: var(--cor-seco)!important;
 }
 
 .cor-terci {
-    color: var(--cor-thir);
+    color: var(--cor-thir)!important;
 }
 
 /* Navegador */
@@ -46,7 +46,7 @@
     font-size: 20px;
 }
 
-.dropdown-menu {
+#dropdown-pessoa .dropdown-menu {
     min-width: 90px;
 }
 
@@ -62,12 +62,53 @@
 .borda-hr {
     margin: 10px 0 3px;
 }
+
+/* Tabela */
+#tabelas {
+    width: 70%;
+}
+
+.espaco-tr {
+    width: 25%;
+}
+
+#text-agendamento {
+    width: 30%;
+}
+
 /* RESPONSIVIDADE */
+@media screen and (min-width: 577px) { /*Estilização para telas grandes*/
+    #text-suspenso {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
     #itens{
         margin: 0px 0px 0px 30px;
     }
     #imgitens{
         margin: 0px 0px 0px 30px;
+    }
+
+    #tabelas {
+        width: 90%;
+        margin: 10px auto!important;
+    }
+
+    .table-responsive-lg {
+        margin: 20px 0;
+    }
+
+    #tabela-e-text {
+        width: 100%;
+    }
+
+    #text-agendamento {
+        display: none!important;
+    }
+
+    #text-suspenso {
+        display: flex;
     }
 }

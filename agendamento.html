@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/principal/icone-ratatouille.ico" type="image/x-icon">
     <title>Agendamento - Ratatouille</title>
 
     <!-- Link do Bootstrap -->
@@ -32,10 +33,21 @@
                             <a href="index.html" class="nav-link itens">Home</a>
                         </li>
                         <li class="nav-item item-lista">
-                            <a href="#" class="nav-link active itens" aria-current="page">Receitas</a>
+                            <a href="#" class="nav-link itens">Receitas</a>
                         </li>
-                        <li class="nav-item item-lista">
-                            <a href="#" class="nav-link itens">Agendamento</a>
+                        <li class="nav-item item-lista dropdown">
+                            <a href="#" class="nav-link active itens dropdown-toggle" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">Agendamento</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Doutor 1</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Doutor 2</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Doutor 3</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item item-lista">
                             <a href="#" class="nav-link itens">Notícias</a>
@@ -44,8 +56,8 @@
                             <a href="#" class="nav-link itens">Fórum</a>
                         </li>
                     </ul> 
-                    <span class="navbar-text nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="imgitens" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span id="dropdown-pessoa" class="navbar-text nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="imgitens" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="img/a_disc/profile.png" alt="">
                         </a>
                         <ul class="dropdown-menu">
@@ -56,18 +68,19 @@
                             <li>
                                 <a class="dropdown-item" href="#">Sair</a>
                             </li>
-                          </ul>
+                        </ul>
                     </span>
                 </div>
             </div>
         </nav>
 
-        <section id="" class="container-fluid mt-5">
+        <section id="card-doutores" class="container-fluid mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col justify-content-center">
+                        <!-- Carde Doutores -->
                         <div class="card mb-3" style="max-width: auto;">
-                            <div class="row g-0">
+                            <div class="row g-0 align-items-center">
                               <div class="col-md-4">
                                 <img src="img/principal/dr-moana.jpg" class="img-fluid borda-imagem" alt="...">
                               </div>
@@ -77,9 +90,93 @@
                                   <hr class="border border-danger border-2 opacity-50 borda-hr">
                                   <p class="card-text"><small class="text-uppercase cor-secun">crm: 0000</small></p>
                                   <p class="card-text cor-terci">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsum ipsam assumenda illo facilis quidem eum culpa perspiciatis. Earum harum inventore nam perspiciatis est ab dolor fugit repellendus soluta! Provident.</p>
+                                  <button type="button" class="btn btn-light btn-lg text-uppercase cor-secun">marcar consulta</button>
                                 </div>
                               </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="agendas" class="container-fluid mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col justify-content-center">
+                        <div>
+                            <h3 class="text-uppercase cor-prima mb-0">Agenda</h3>
+                            <hr class="border border-danger border-2 opacity-50 borda-hr">
+                            <h4 class="text-uppercase cor-terci mb-0">todos os dias das 8h Às 20h</h4>
+                        </div>
+                        <span id="text-suspenso" class="text-uppercase text-center cor-terci mb-0 m-4">leis brasileiras fixam oito datas comemorativas como 
+                            feriados nacionais.</span>
+                        <div id="tabela-e-text" class="container d-inline-flex align-items-center mx-auto">
+                            <div id="tabelas" class="mt-5">
+                                <div class="table-responsive-lg">
+                                    <table class="table table-secondary">
+                                        <thead>
+                                          <tr>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Janeiro</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Fevereiro</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Março</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Abril</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td class="align-items-center cor-secun">1º (Ano novo)</td>
+                                            <td class="align-items-center cor-secun">Livre</td>
+                                            <td class="align-items-center cor-secun">Livre</td>
+                                            <td class="align-items-center cor-secun">21º (Tiradentes)</td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive-lg">
+                                    <table class="table table-secondary">
+                                        <thead>
+                                          <tr>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Maio</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Junho</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Julho</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Agosto</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td class="align-items-center cor-secun">1° (Dia do trabalhador)</td>
+                                            <td class="align-items-center cor-secun">Livre</td>
+                                            <td class="align-items-center cor-secun">Livre</td>
+                                            <td class="align-items-center cor-secun">Livre</td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive-lg">
+                                    <table class="table table-secondary">
+                                        <thead>
+                                          <tr>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Setembro</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Outubro</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Novembro</th>
+                                            <th class="cor-terci h5 espaco-tr" scope="col">Dezembro</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td class="align-items-center cor-secun">7º (Independência do Brasil)</td>
+                                            <td class="align-items-center cor-secun">12º (Santa Aparecida)</td>
+                                            <td class="align-items-center cor-secun">2º (Finados)</td>
+                                            <td class="align-items-center cor-secun">25º (Natal)</td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <h5 id="text-agendamento" class="d-flex text-uppercase text-center cor-terci mb-0 ms-4">leis brasileiras fixam oito datas comemorativas como 
+                                feriados nacionais.
+                            </h5>
                         </div>
                     </div>
                 </div>
