@@ -4,7 +4,10 @@
 }
 
 :root{
-    --cor-dos-textos: #843C60;
+    /* --cor-dos-textos */
+    --cor-main: #7C1D41;
+    --cor-seco: #8F3863;
+    --cor-thir: #43427E;
 }
 
 /*                              Parte do topo                              */
@@ -124,7 +127,7 @@
 }
 
 .main-cor-texto {
-    color: var(--cor-dos-textos)!important;
+    color: var(--cor-seco)!important;
 }
 
 
@@ -136,11 +139,15 @@
 }
 
 .caixa-forum {
-    border: solid 5px var(--cor-dos-textos);
+    border: solid 5px var(--cor-main);
 }
 
 .card-body:hover {
     text-decoration: none;
+}
+
+#texto-p {
+    color: var(--cor-thir);
 }
 /* CoF */
 
