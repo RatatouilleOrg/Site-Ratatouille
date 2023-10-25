@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Seção do Topo */
+
+#head-topo {
+    display: grid;
+    max-width: 100%;
+    justify-content: center;
+}
+
+#navegar {
+    width: 1280px;
+    display: inline-flex;
+    height: 100px;
+    place-items: center;
+}
+
+#logos {
+    display: grid;
+    float: left;
+    color: #43427E;
+}
+
+#n-links {
+    display: inline-flex;
+    gap: 20px;
+    float: right;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#itens-da-nav {
+    float: left;
+    display: inline-grid;
+    gap: 10px;
+}
+
+.nav {
+    gap: 14px;
+}
+
+#acessos {
+    float: right;
+}
+
+#acessos a {padding: 0 2px;}
+
+.nav-items {
+    font-size: 20px;
+}
+
+.nav-items a {text-decoration: none; color: #843c60; font-weight: 500;}
+.nav-items a:hover {transition: color 0.3s; color: #551e3a;}
+
+
+/* - ST */
+
+/* Aba de Perfil */
+
+#aba-perfil {
+    display: flex;
+    max-width: 100%;
+    height: 150px;
+    justify-content: center;
+}
+
+#caixa-do-perfil {
+    width: 1286px;
+    display: inline-grid;
+    place-items: center;
+}
+
+#caixa-do-perfil hr {margin: 0;padding: 0 5px ; height: 5px; background-color: #8f3863; width: 99.5%;}
+
+#perfil-links {
+    display: inline-flex;
+    float: left;
+    margin-right: auto;
+    gap: 5px;
+    font-size: 20px;
+    padding-left: 6px;
+    color: #843C60;
+}
+
+#perfil-links a {font-size: 20px; text-decoration: none; color: #843C60; font-weight: 500;}
+#perfil-links a:hover {transition: color 0.3s; color: #551e3a;}
+
+#area-perfil {
+    width: 1280px;
+    height: 100px;
+    place-items: center;
+    display: inline-flex;
+    background-color: lavender;
+    padding: 5px;
+}
+
+#area-perfil h2 {font-size: 20px; color: #843C60;}
+#area-perfil h3 {font-size: 15px; margin-bottom: 0; color: #43427E;}
+
+#perfil-1 {
+    display: inline-flex;
+    float: left;
+    margin-right: auto;
+    justify-content: left;
+}
+
+#sub-perfil-1 {
+    float: left;
+    justify-content: left;
+    margin-right: 10px;
+}
+
+#sub-perfil-2 {
+    float: right;
+}
+
+#perfil-2 {
+    display: inline-flex;
+    float: right;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    top: 0;
+    margin-bottom: 60px;
+}
+
+/* - AdP */

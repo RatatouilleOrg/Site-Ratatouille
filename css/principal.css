@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*                              Parte do topo                              */
+#cabecalho-topo {
+    height: 810px;
+    background-image: url('../img/principal/bg-tela_principal.jpg');
+}
+/* -- Elementos do navegador */
+#nav {
+    align-items: center;
+    padding: 20px;
+}
+
+#txt-logo {
+    color: #FFF3E9;
+}
+
+.lista {
+    background-color: #FFF3E9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 0;
+}
+
+.itens-lista {
+    float: left;
+    color: #8F3863;
+    font-size: 20px;
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.itens-lista a {color: #8F3863; text-decoration: none;} 
+.itens-lista a:hover {transition: color 0.3s; text-decoration: underline; color: #520c2f;}
+/* -- En */
+
+/* -- Texto principal */
+#inicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+#ttl-inicial{
+    color: #FFF3E9;
+    font-size: 62px;
+    text-align: center;
+}
+/* -- Tp */
+
+/*                                    Pt                                    */
+
+
+/*                            Seção das Receitas                            */
+#receitas{
+    margin-top: 150px;
+}
+
+/* -- Barra de pesquisa */
+.brr-pesq {
+    width: 320px;
+    float: right;
+    color: #8F3863;
+    border-radius: 20px;
+    background-color: #F8DEEF;
+    margin: 60px 0 30px;
+    padding: 4px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.brr-pesq input {border: 0; width: 260px; border-radius: 20px; background-color: #F8DEEF;}
+input.form-control {margin: 0 12px 0 0; height: 36px; width: 250px; text-align: right;}
+
+/* -- Bp */
+
+/* -- Grade das Receitas */
+#receitas {
+    background: url(../img/principal/toy-story.jpg) center center / 100% no-repeat ; /* Não está funcionando */
+}
+
+.ttl-secções {
+    font-size: 50px;
+    color: #7C1D41;
+    margin-bottom: 60px;
+}
+
+.caixa {
+    display: grid;
+    place-items: center;
+    margin: 10px auto;
+    float: left;
+}
+
+.cardR {
+    display: inline-flex;
+    width: 350px;
+    padding: 10px;
+    place-items: center;
+}
+
+.cardR {text-decoration: none; color: #843C60;}
+.cardR h3:hover {transition: color 0.3s; text-decoration: underline; color: #7e214f;}
+.cardR img {margin: 10px; width: 120px; height: 120px; border: medium solid #843C60; border-radius: 15px;}
+.cardR h3 {width: 200px; margin: 10px; padding: 5px;}
+
+.cardR img, .cardR h3 {margin: 10px;}
+
+/* -- GR */
+#holley {
+    margin-top: 20px;
+}
+/*                                    SR                                    */
+
+
+/*                         Seção dos Profissionais                         */
+#profissionais {
+    margin-top: 50px;
+    background: #fff;/* É só pra não desmerecer a propriedade*/
+}
+
+.card a {color: #843C60; text-decoration: none;}
+
+.card-body h5, .card-body p  {color: #843C60;}
+.card-body:hover {transition: color 0.3s; text-decoration: underline; color: #5e2240;}
+
+@media screen and (min-width: 577px) { /*Estilização para telas grandes*/
+    #profs{
+        margin: 2rem 10rem 2rem 10rem;
+    }
+}
+
+@media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
+    #cardbody{
+        margin: 2rem 0rem 2rem 0rem;
+    }
+}
+
+#caixa-imagens {
+    display: inline-flex;
+    place-items: center;
+    position: absolute;
+    margin-bottom: 350px;
+}
+
+
+/*                                   SP                                   */
