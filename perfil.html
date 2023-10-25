@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratatouille</title>
+
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="css/perfil.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<body>
+    <!-- Começo da NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img src="img/walt-diseny-logo-2.png" alt="" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ul">
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Home</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link active" aria-current="page" href="#" id="itens">Receitas</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Agendamento</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Notícias</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Outros</a>
+                    </li>
+                </ul> 
+                <span class="navbar-text">
+                    <a class="nav-link" href="#" id="imgitens"> <img src="img/a_disc/profile.png" alt=""></a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim da Navbar --> 
+    <div class="d-lg-flex flex-nowrap">    
+        <div id="pfp" class="card d-flex border-0">
+            <!--Foto de perfil do usuário-->
+            <img id="foto-perfil" src="img/placeholders/ph-200x200.png" class="card-img rounded-circle justify-content-center">
+            <div class="card-body">
+                <!--Nome do usuário-->
+                <p id="nome-usuario" class="card-text">NOME-USUÁRIO</p>
+                <a id="editar-perfil" href="#" class="btn d-flex justify-content-center">Editar Perfil</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mx-auto vstack">
+            <!--Título-->
+            <div id="seu-perfil" class="d-flex justify-content-center mx-auto">
+                <p>SEU PERFIL</p>
+            </div>
+            <div class="container text-center">
+                <div id="textos" class="row">
+                    <!--Informações-->
+                    <div id="info" class="col vstack text-start">
+                        <p>NOME: NOME-USUÁRIO</p>
+                        <p>EMAIL: usuario@email.com</p>
+                        <p>TELEFONE: (XX) XXXXXXXXX</p>
+                        <p>ENDEREÇO: _______________</p>
+                        <p>CIDADE __________________</p>
+                        <p>PAÍS: ___________________</p>
+                        <p>CEP: XXXXX-XXX</p>
+                    </div>
+
+                    <!--Menu-->
+                        <!--Minhas consultas-->
+                        <div id="dropdowns" class="col-5 vstack">
+                            <div id="menu-perfil" class="col-4 justify-content-center mx-auto w-100">
+                                <p class="d-flex gap-1">
+                                    <button class="btn" id="btn-menu-perfil" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#minhasConsultas" aria-expanded="false" aria-controls="minhasConsultas">
+                                        ☰ Minhas Consultas
+                                    </button>
+                                </p>
+                                <div class="collapse" id="minhasConsultas">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but
+                                        revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!--Receitas favoritas-->
+                            <div id="menu-perfil" class="col-4 justify-content-center mx-auto w-100">
+                                <p class="d-flex gap-1">
+                                    <button class="btn" id="btn-menu-perfil" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#receitasFavoritas" aria-expanded="false" aria-controls="receitasFavoritas">
+                                        ☰ Receitas Favoritas
+                                    </button>
+                                </p>
+                                <div class="collapse" id="receitasFavoritas">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but
+                                        revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!--Notícias favoritas-->
+                            <div id="menu-perfil" class="col-4 justify-content-center mx-auto w-100">
+                                <p class="d-flex gap-1">
+                                    <button class="btn" id="btn-menu-perfil" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#noticiasFavoritas" aria-expanded="false" aria-controls="noticiasFavoritas">
+                                        ☰ Notícias Favoritas
+                                    </button>
+                                </p>
+                                <div class="collapse" id="noticiasFavoritas">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but
+                                        revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!--Minhas perguntas-->
+                            <div id="menu-perfil" class="col-4 justify-content-center mx-auto w-100">
+                                <p class="d-flex gap-1">
+                                    <button class="btn" id="btn-menu-perfil" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#minhasPerguntas" aria-expanded="false" aria-controls="minhasPerguntas">
+                                        ☰ Minhas Perguntas
+                                    </button>
+                                </p>
+                                <div class="collapse" id="minhasPerguntas">
+                                    <div id="menu-perfil-texto" class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but
+                                        revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
