@@ -96,9 +96,9 @@
     place-items: center;
 }
 
-.cardR {text-decoration: none; color: #843C60;}
+.cardR {text-decoration: none; color: var(--cor-main);}
 .cardR h3:hover {transition: color 0.3s; text-decoration: underline; color: #7e214f;}
-.cardR img {margin: 10px; width: 120px; height: 120px; border: medium solid #843C60; border-radius: 15px;}
+.cardR img {margin: 10px; width: 120px; height: 120px; border: medium solid var(--cor-main); border-radius: 15px;}
 .cardR h3 {width: 200px; margin: 10px; padding: 5px;}
 
 .cardR img, .cardR h3 {margin: 10px;}
@@ -174,6 +174,10 @@
         font-size: 62px;
     }
 
+    .cardR {
+        margin: 0 50px;
+    }
+
     .ttl-secções {
         font-size: 50px;
     }
@@ -220,6 +224,7 @@
         width: 200px;
         height: auto;
         margin: 0 auto;
+        margin-top: 20px;
     }
 
     #txt-logo {
@@ -244,6 +249,10 @@
 
     #sulivan {
         margin: 0 auto!important;
+    }
+
+    #medo {
+        display: grid;
     }
 
     #monstrinho-rosa {

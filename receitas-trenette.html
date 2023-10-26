@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/icone-do-rato-1.ico" type="image/x-icon">
-    <title>Receitas</title>
+    <title>Receitas - Trenette</title>
     <!-- Link do Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -22,7 +21,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
         <div class="container-fluid">
             <!-- Logo -->
-            <a class="d-grid navbar-brand justify-content-center" href="#">
+            <a class="d-grid navbar-brand justify-content-center" href="#" aria-disabled="true">
                 <img class="d-flex justify-content-center" src="img/agendamento/walt-diseny-logo-2.png" alt="" id="logo">
                 <span class="d-flex justify-content-center cor-prima h5 ps-4">Ratatouille</span>
             </a>
@@ -36,17 +35,31 @@
                     <li class="nav-item item-lista">
                         <a href="index.html" class="nav-link itens">Home</a>
                     </li>
-                    <li class="nav-item item-lista">
-                        <a href="receitas.html" class="nav-link itens active">Receitas</a>
+                    <li class="nav-item item-lista dropdown">
+                        <a href="#" class="nav-link itens active dropdown-toggle" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">Receitas</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item active" href="#">Trenette Al Pesto</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="receitas-congee.html">Congee da Mulan</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="receitas-hamburguer.html">Hambúrguer de Siri</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="receitas-tostadas.html">Tostadas da Tiana</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item item-lista">
                         <a href="agendamento-moana.html" class="nav-link itens" aria-current="page">Agendamento</a>
                     </li>
                     <li class="nav-item item-lista">
-                        <a href="#" class="nav-link itens">Notícias</a>
+                        <a href="notícia.html" class="nav-link itens">Notícias</a>
                     </li>
                     <li class="nav-item item-lista">
-                        <a href="#" class="nav-link itens">Fórum</a>
+                        <a href="discussoes-gerais.html" class="nav-link itens">Fórum</a>
                     </li>
                 </ul> 
                 <span id="dropdown-pessoa" class="navbar-text nav-item dropdown">
@@ -59,7 +72,7 @@
                         </li>
                         <li><hr class="dropdown-divider"></li>
                         <li>
-                            <a class="dropdown-item" href="#">Sair</a>
+                            <a class="dropdown-item" href="login.html">Sair</a>
                         </li>
                     </ul>
                 </span>
@@ -68,14 +81,14 @@
     </nav>
     <!-- Fim da Navbar -->
     <!-- Título -->
-    <div>
+    <div id="corpo">
         <div id="titulo">
             <h1> Trenette Al Pesto </h1>
         </div>
         <!-- Div geral da Receita -->
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div id="receitasinfo">
             <!-- Imagem da Esquerda -->
-            <img src="img/principal/macarrão-luca.png" class="rounded float-start" alt="..." id="imgleft">
+            <img src="img/receitas/macarrão-luca.png" class="rounded float-start" alt="..." id="imgleft">
             <div id="info">
                 <div id="text">
                     <!-- Texto -->
@@ -141,12 +154,9 @@
                         </div>
                     </div>
                 </div>
-                <div id="direita" class="col">
-                    <img src="img/principal/bing-bong.png" class="rounded float-end" alt="..." id="imgright">
-                </div>
             </div>
             <!-- Imagem da Direita -->
-            <img src="img/principal/Luca.png" class="rounded float-end" alt="..." id="imgright">
+            <img src="img/receitas/Luca.png" class="rounded float-end" alt="..." id="imgright">
         </div>
     </div>
     </div>
