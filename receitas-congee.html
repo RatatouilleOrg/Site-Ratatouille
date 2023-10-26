@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita - Congee</title>
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="css/receitas-congee.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <!-- Começo da NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img src="img/walt-diseny-logo-2.png" alt="" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ul">
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Home</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link active" aria-current="page" href="#" id="itens">Receitas</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Agendamento</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Notícias</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Outros</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a class="nav-link" href="#" id="imgitens"> <img src="img/a_disc/profile.png" alt=""></a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim da Navbar -->
+    <!-- Título -->
+    <div id="corpo">
+        <div id="titulo">
+            <h1> Congee da Mulan </h1>
+        </div>
+        <!-- Div geral da Receita -->
+        <div id="receitasinfo">
+            <!-- Imagem da Esquerda -->
+            <img src="img/principal/congee-da-mulan.png" class="rounded float-start" alt="..." id="imgleft">
+            <div id="info">
+                <div id="text">
+                    <!-- Texto -->
+                    <p>No filme Mulan, o congee é um prato especial que tem um significado especial para a personagem. O
+                        congee é preparado pela mãe de Mulan, Ming, e é servido para a família todas as manhãs. Para
+                        Mulan, o congee é um símbolo do amor e do cuidado de sua mãe.
+                    </p>
+                    <p>O congee da Mulan é um símbolo de amor, cuidado e proteção. É um prato que une a família e que
+                        traz conforto e carinho.</p>
+                    <!-- Collapse Ingredientes -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1" id="botao">
+                            Ingredientes
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1">
+                        <div class="card card-body">
+                            <ul>
+                                <li>1 xícara de arroz</li>
+                                <li>6 xícaras de caldo de frango</li>
+                                <li>1 pedaço de gengibre de 2 cm</li>
+                                <li>Sal</li>
+                                <li>Óleo</li>
+                                <li>2 ovos</li>
+                                <li>1 fatia de bacon</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Collapse Modo de Preparo -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample2" id="botao">
+                            Modo de Preparo
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            1. Em uma panela, colocar o arroz e adicionar o caldo de frango. <br>
+                            2. Levar ao fogo médio, e deixar cozinhar, com a panela semi tampada e mexer de vez em
+                            quando, por aproximadamente 30 minutos ou até que o arroz esteja cremoso. <br>
+                            3. Temperar com sal e reservar. <br>
+                            4. Em uma frigideira, colocar um fio de óleo e fritar os ovos. Reservar. <br>
+                            5. Na mesma frigideira, fritar a fatia de bacon e reservar. <br>
+                            6. Em um bowl pequeno, dispor o mingau de arroz, os dois ovos fritos para formar os olhos e
+                            a fatia de bacon para formar a boca, e servir.<br>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Collapse Mais informações -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
+                            aria-expanded="false" aria-controls="collapseExample3" id="botao">
+                            Mais informações
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                            Fonte de carboidratos, proteínas e fíbras. É também uma boa fonte de vitaminas e minerais
+                            como ferro, cálcio, fósforo e magnésio.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Imagem da Direita -->
+            <img src="img/principal/mulan.png" class="rounded float-end" alt="..." id="imgright">
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

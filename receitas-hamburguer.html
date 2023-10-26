@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita - Hambúrguer</title>
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="css/receitas-hamburguer.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <!-- Começo da NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img src="img/walt-diseny-logo-2.png" alt="" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ul">
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Home</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link active" aria-current="page" href="#" id="itens">Receitas</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Agendamento</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Notícias</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item" id="lista">
+                        <a class="nav-link" href="#" id="itens">Outros</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a class="nav-link" href="#" id="imgitens"> <img src="img/a_disc/profile.png" alt=""></a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim da Navbar -->
+    <!-- Título -->
+    <div id="corpo">
+        <div id="titulo">
+            <h1> Hambúrguer de Siri </h1>
+        </div>
+        <!-- Div geral da Receita -->
+        <div id="receitasinfo">
+            <!-- Imagem da Esquerda -->
+            <img src="img/principal/hamburguer.jpg" class="rounded float-start" alt="..." id="imgleft">
+            <div id="info">
+                <div id="text">
+                    <!-- Texto -->
+                    <p>O Hambúrguer de Siri é o maior marco da série infantil que cativou milhões de pessoas em todo o
+                        mundo. o sonho de infância de qualquer decada era comer um desses.
+                    </p>
+                    <!-- Collapse Ingredientes -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1" id="botao">
+                            Ingredientes
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1">
+                        <div class="card card-body">
+                            <ul>
+                                <li>500g de carne de siri descongelada;</li>
+                                <li>1 colher (sopa) de farinha de trigo;</li>
+                                <li>1 colher (sopa) de margarina;</li>
+                                <li>1 cebola picada;</li>
+                                <li>1 colher (sopa) de colorífico;</li>
+                                <li>2 dentes de alho picados;</li>
+                                <li>Suco de um limão pequeno;</li>
+                                <li>Sal e pimenta do reino a gosto;</li>
+                                <li>Azeite para fritar.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Collapse Modo de Preparo -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample2" id="botao">
+                            Modo de Preparo
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            1. No fogo médio, derreta a manteiga, junte a cebola picada e cozinhe um pouco; <br>
+                            2. Adicione a farinha de trigo e misture bem; <br>
+                            3. Acrescente a carne de siri (ela solta bastante água mesmo). Continue misturando; <br>
+                            4. Quando tiver uma massa bem homogênea, acrescente o limão, alho, sal, pimenta do reino e o
+                            colorífico. Mexa bem por aproximadamente 10 minutos; <br>
+                            5. Deixe a mistura esfriar um pouco, pegue pedaços da massa e modele os hambúrgueres; <br>
+                            6. Frite os hambúrgueres no azeite, deixando-os bem dourados; <br>
+                            7. Montagem: Pão de hambúrguer, Cebola roxa cortada em rodelas, Tomate cortado em rodelas,
+                            Picles, Ketchup, Mostarda, Alface Crespa, Queijo Prato.
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Collapse Mais informações -->
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
+                            aria-expanded="false" aria-controls="collapseExample3" id="botao">
+                            Mais informações
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                            Fonte de carboidratos e proteínas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Imagem da Direita -->
+            <img src="img/principal/bob-removebg-preview.png" class="rounded float-end" alt="..." id="imgright">
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

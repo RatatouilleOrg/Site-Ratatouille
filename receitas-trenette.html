@@ -13,7 +13,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <!-- Link para o CSS -->
-    <link rel="stylesheet" href="css/receitas.css">
+    <link rel="stylesheet" href="css/receitas-trenette.css">
 </head>
 
 <body>
@@ -70,41 +70,43 @@
     <!-- Título -->
     <div>
         <div id="titulo">
-            <h1> Nome da comida </h1>
+            <h1> Trenette Al Pesto </h1>
         </div>
         <!-- Div geral da Receita -->
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
             <!-- Imagem da Esquerda -->
-            <div id="esqueda" class="col">
-                <img src="img/receitas/patolé.png" class="rounded float-start" alt="..." id="imgleft">
-            </div>
-            <div class="col">
-                <div>
+            <img src="img/principal/macarrão-luca.png" class="rounded float-start" alt="..." id="imgleft">
+            <div id="info">
+                <div id="text">
                     <!-- Texto -->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati et, omnis, consectetur
-                        perferendis
-                        minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus
-                        debitis
-                        maxime
-                        veritatis!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati et, omnis, consectetur
-                        perferendis
-                        minima iusto ad excepturi commodi ipsa nemo facere officiis fugiat quibusdam eos delectus
-                        debitis
-                        maxime
-                        veritatis!</p>
+                    <p>Ambientada em uma cidade litorânea da Itália, a nova animação da Pixar e Disney, Luca, traz cenas
+                        de dar água na boca pela culinária. É o caso do tradicional trenette al pesto, conhecido no
+                        Brasil como macarrão ao pesto. Confira a receita clássica do filme a seguir!
+                    </p>
                     <!-- Collapse Ingredientes -->
                     <p class="d-inline-flex gap-1">
                         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
                             aria-expanded="false" aria-controls="collapseExample1" id="botao">
                             Ingredientes
-                            <img src="img/a_disc/three_dots.png" alt="">
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
                         </button>
                     </p>
                     <div class="collapse" id="collapseExample1">
                         <div class="card card-body">
-                            Some placeholder content for the collapse component. This panel is hidden by default but
-                            revealed when the user activates the relevant trigger.
+                            <ul>
+                                <li>2 colheres de parmesão ralado</li>
+                                <li>500 g de trenette (ou qualquer tipo de macarrão que você ame: liguine, spaguetti,
+                                    etc.);</li>
+                                <li>100 g de vagem (corte em pedaços).</li>
+                                Para o pesto alla genovese:
+                                <li>45 folhas (ou 50g) de mangericão genovese;</li>
+                                <li>1 batata grande (corte em cubinhos);</li>
+                                <li>2 dentes de alho;</li>
+                                <li>1 pitada de sal grosso;</li>
+                                <li>2 colheres de percorino ralado;</li>
+                                <li>30g de pinhão;</li>
+                                <li>100ml de azeite de oliva.</li>
+                            </ul>
                         </div>
                     </div>
                     <br>
@@ -113,13 +115,15 @@
                         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
                             aria-expanded="false" aria-controls="collapseExample2" id="botao">
                             Modo de Preparo
-                            <img src="img/a_disc/three_dots.png" alt="">
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
                         </button>
                     </p>
                     <div class="collapse" id="collapseExample2">
                         <div class="card card-body">
-                            Some placeholder content for the collapse component. This panel is hidden by default but
-                            revealed when the user activates the relevant trigger.
+                            1. Adicione os pinhões, o parmigiano ralado e o pecorino ralado; <br>
+                            2. Ao continuar a adicionar o azeite, a consistência deve ser a de um creme muito denso, e a
+                            quantidade de azeite necessária variar dependendo do grau de absorção da mistura; <br>
+                            3. A chave para um pesto de grande sabor é não cozinhar o manjericão!
                         </div>
                     </div>
                     <br>
@@ -128,13 +132,12 @@
                         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
                             aria-expanded="false" aria-controls="collapseExample3" id="botao">
                             Mais informações
-                            <img src="img/a_disc/three_dots.png" alt="">
+                            <img src="img/a_disc/down_icon.png" alt="" id="down">
                         </button>
                     </p>
                     <div class="collapse" id="collapseExample3">
                         <div class="card card-body">
-                            Some placeholder content for the collapse component. This panel is hidden by default but
-                            revealed when the user activates the relevant trigger.
+                            Fonte de carboidratos e proteínas.
                         </div>
                     </div>
                 </div>
@@ -143,6 +146,7 @@
                 </div>
             </div>
             <!-- Imagem da Direita -->
+            <img src="img/principal/Luca.png" class="rounded float-end" alt="..." id="imgright">
         </div>
     </div>
     </div>
