@@ -1,35 +1,4 @@
-/* Estilização da NavBar */
-#navbar {
-    padding-top: 5px;
-}
-
-#logo {
-    width: 140px;
-    height: 90px;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-
-#ul {
-    width: 100%;
-}
-
-.item-lista{
-    margin: 0% 4%;
-}
-
-.itens {
-    color: #8F3863;
-    font-size: 20px;
-}
-
-#dropdown-pessoa .dropdown-menu {
-    min-width: 90px;
-}
-
-#imgitens {
-    margin: 0px 30px; 
-}
+@import url(navbar_pags.css);
 
 /* Carde */
 .borda-imagem {
@@ -38,19 +7,6 @@
 
 .borda-hr {
     margin: 10px 0 3px;
-}
-
-/* Tabela */
-#tabelas {
-    width: 70%;
-}
-
-.espaco-tr {
-    width: 25%;
-}
-
-#text-agendamento {
-    width: 30%;
 }
 
 /* Body */

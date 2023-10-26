@@ -48,6 +48,7 @@
     --cor-main: #7C1D41;
     --cor-seco: #8F3863;
     --cor-thir: #43427E;
+    --cor-barras: #eaeff3;
 }
 
 .cor-prima {
@@ -60,4 +61,8 @@
 
 .cor-terci {
     color: var(--cor-thir)!important;
+}
+
+.cor-fundo-barras {
+    background-color: var(--cor-barras);
 }

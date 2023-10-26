@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratatouille</title>
+    <link rel="shortcut icon" href="img/icone-do-rato-1.ico" type="image/x-icon">
+    <title>Perfil - Ratatouille</title>
 
     <!-- Link do Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,40 +14,51 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-<body>
+    <body>
     <!-- Começo da NavBar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
         <div class="container-fluid">
             <!-- Logo -->
-            <a class="navbar-brand" href="#"><img src="img/walt-diseny-logo-2.png" alt="" id="logo"></a>
+            <a class="d-grid navbar-brand justify-content-center" href="#">
+                <img class="d-flex justify-content-center" src="img/agendamento/walt-diseny-logo-2.png" alt="" id="logo">
+                <span class="d-flex justify-content-center cor-prima h5 ps-4">Ratatouille</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Itens da Navbar -->
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ul">
-                    <li class="nav-item" id="lista">
-                        <a class="nav-link" href="#" id="itens">Home</a>
+                <ul id="ul" class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                    <li class="nav-item item-lista">
+                        <a href="index.html" class="nav-link itens">Home</a>
                     </li>
-                    <li class="nav-item" id="lista">
-                        <a class="nav-link active" aria-current="page" href="#" id="itens">Receitas</a>
+                    <li class="nav-item item-lista">
+                        <a href="receitas.html" class="nav-link itens">Receitas</a>
                     </li>
-                    <li class="nav-item" id="lista">
-                        <a class="nav-link" href="#" id="itens">Agendamento</a>
+                    <li class="nav-item item-lista">
+                        <a href="agendamento-moana.html" class="nav-link itens" aria-current="page">Agendamento</a>
                     </li>
-                    <li class="nav-item" id="lista">
-                        <a class="nav-link" href="#" id="itens">Notícias</a>
+                    <li class="nav-item item-lista">
+                        <a href="notícia.html" class="nav-link itens">Notícias</a>
                     </li>
-                    <li class="nav-item" id="lista">
-                        <a class="nav-link" href="#" id="itens">Fale Conosco</a>
-                    </li>
-                    <li class="nav-item" id="lista">
-                        <a class="nav-link" href="#" id="itens">Outros</a>
+                    <li class="nav-item item-lista">
+                        <a href="#" class="nav-link itens">Fórum</a>
                     </li>
                 </ul> 
-                <span class="navbar-text">
-                    <a class="nav-link" href="#" id="imgitens"> <img src="img/a_disc/profile.png" alt=""></a>
+                <span id="dropdown-pessoa" class="navbar-text nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ms-2" id="imgitens" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/a_disc/profile.png" alt="">
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item active" href="#">Perfil</a>
+                        </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Sair</a>
+                        </li>
+                    </ul>
                 </span>
             </div>
         </div>
@@ -55,10 +67,10 @@
     <div class="d-lg-flex flex-nowrap">    
         <div id="pfp" class="card d-flex border-0">
             <!--Foto de perfil do usuário-->
-            <img id="foto-perfil" src="img/placeholders/ph-200x200.png" class="card-img rounded-circle justify-content-center">
+            <img id="foto-perfil" src="img/noticias/icon-de-perfil.png" class="d-flex card-img rounded-circle justify-content-center">
             <div class="card-body">
                 <!--Nome do usuário-->
-                <p id="nome-usuario" class="card-text">NOME-USUÁRIO</p>
+                <p id="nome-usuario" class="card-text text-uppercase">user4790</p>
                 <a id="editar-perfil" href="#" class="btn d-flex justify-content-center">Editar Perfil</a>
             </div>
         </div>
@@ -71,13 +83,13 @@
                 <div id="textos" class="row">
                     <!--Informações-->
                     <div id="info" class="col vstack text-start">
-                        <p>NOME: NOME-USUÁRIO</p>
+                        <p>NOME: user4790</p>
                         <p>EMAIL: usuario@email.com</p>
-                        <p>TELEFONE: (XX) XXXXXXXXX</p>
-                        <p>ENDEREÇO: _______________</p>
-                        <p>CIDADE __________________</p>
-                        <p>PAÍS: ___________________</p>
-                        <p>CEP: XXXXX-XXX</p>
+                        <p>TELEFONE: (75) 9 9457-4958</p>
+                        <p>ENDEREÇO: Av. Getúlio Vargas, 450</p>
+                        <p>CIDADE: Feira de Santana</p>
+                        <p>PAÍS: Brasil</p>
+                        <p>CEP: 94024-349</p>
                     </div>
 
                     <!--Menu-->
@@ -92,8 +104,7 @@
                                 </p>
                                 <div class="collapse" id="minhasConsultas">
                                     <div class="card card-body">
-                                        Some placeholder content for the collapse component. This panel is hidden by default but
-                                        revealed when the user activates the relevant trigger.
+                                        Sem consultas favoritadas
                                     </div>
                                 </div>
                             </div>
@@ -108,8 +119,7 @@
                                 </p>
                                 <div class="collapse" id="receitasFavoritas">
                                     <div class="card card-body">
-                                        Some placeholder content for the collapse component. This panel is hidden by default but
-                                        revealed when the user activates the relevant trigger.
+                                        Sem receitas favoritadas
                                     </div>
                                 </div>
                             </div>
@@ -124,8 +134,7 @@
                                 </p>
                                 <div class="collapse" id="noticiasFavoritas">
                                     <div class="card card-body">
-                                        Some placeholder content for the collapse component. This panel is hidden by default but
-                                        revealed when the user activates the relevant trigger.
+                                        Sem notícias favoritadas
                                     </div>
                                 </div>
                             </div>
@@ -140,8 +149,7 @@
                                 </p>
                                 <div class="collapse" id="minhasPerguntas">
                                     <div id="menu-perfil-texto" class="card card-body">
-                                        Some placeholder content for the collapse component. This panel is hidden by default but
-                                        revealed when the user activates the relevant trigger.
+                                        Sem perguntas favoritadas
                                     </div>
                                 </div>
                             </div>
@@ -151,3 +159,4 @@
         </div>
     </div>
 </body>
+</html>

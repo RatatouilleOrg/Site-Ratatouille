@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icone-do-rato-1.ico" type="image/x-icon">
     <title>Ratatouille - Cadastro</title>
 
     <!-- Link do Bootstrap -->
@@ -11,28 +12,30 @@
     <link rel="stylesheet" href="css/cadastro.css">
 </head>
 <body> 
-    <div id="total">
+    <div id="total" class="pb-5">
        <div class="d-flex justify-content-center" id="logodiv"><img src="img/walt-diseny-logo-2.png" alt="" id="logoimg"></div>
         <div class="d-flex justify-content-center" id="titulo">
-            <p style="margin-bottom: -15px;">RATATOUILLE</p>
+            <p style="margin-bottom: -15px;" class="my-1 fonte-clara">RATATOUILLE</p>
         </div>
-        <div class="d-flex justify-content-center" id="subtitulo">
+        <div class="d-flex justify-content-center fonte-clara" id="subtitulo">
             <p>Cadastro</p>
         </div>
-        <div class="d-flex justify-content-center mb-3"><form id="formulario">
-            <div class="mb-3">
-            <input type="email" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" required>
-            </div>
-            <div class="mb-3">
-                <input type="cpf" class="form-control rounded-pill" id="exampleInputPassword1" placeholder="CPF" required>
-            </div>
-            <div class="mb-3">
-            <input type="password" class="form-control rounded-pill" id="exampleInputPassword1" placeholder="Senha" required>
-            </div>
-            <button type="submit" class="btn btn-primary rounded-pill" id="submit">Cadastrar-se</button>
-        </form></div>
+        <div class="d-flex justify-content-center mb-3">
+            <form id="formulario" method="post" action="index.html">
+                <div class="mb-3">
+                    <input type="email" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" required>
+                </div>
+                <div class="mb-3">
+                    <input type="cpf" class="form-control rounded-pill" id="exampleInputPassword1" placeholder="CPF" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control rounded-pill" id="exampleInputPassword1" placeholder="Senha" required>
+                </div>
+                <button type="submit" class="btn btn-primary rounded-pill" id="submit">Cadastrar-se</button>
+            </form>
+        </div>
 
-        <div class="d-flex justify-content-center" id="cadastro">
+        <div class="d-flex justify-content-center fonte-clara" id="cadastro">
             <p style="margin-bottom: 0;">Já tem uma conta?</p>
         </div>
         <div class="d-flex justify-content-center" id="cadastro">

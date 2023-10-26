@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notícias</title>
+    <link rel="shortcut icon" href="img/icone-do-rato-1.ico" type="image/x-icon">
+    <title>Notícias Gerais - Ratatouille</title>
     <!-- Link do Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -21,7 +22,7 @@
         <div class="container-fluid">
             <!-- Logo -->
             <a class="d-grid navbar-brand justify-content-center" href="#">
-                <img class="d-flex justify-content-center" src="img/walt-diseny-logo-2.png" alt="" id="logo">
+                <img class="d-flex justify-content-center" src="img/agendamento/walt-diseny-logo-2.png" alt="" id="logo">
                 <span class="d-flex justify-content-center cor-prima h5 ps-4">Ratatouille</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -30,47 +31,32 @@
             </button>
             <!-- Itens da Navbar -->
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul id="ul" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul id="ul" class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
                     <li class="nav-item item-lista">
                         <a href="index.html" class="nav-link itens">Home</a>
                     </li>
                     <li class="nav-item item-lista">
-                        <a href="#" class="nav-link itens">Receitas</a>
-                    </li>
-                    <li class="nav-item item-lista dropdown">
-                        <a href="#" class="nav-link active itens dropdown-toggle" aria-current="page" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Agendamento</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Doutor 1</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Doutor 2</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Doutor 3</a>
-                            </li>
-                        </ul>
+                        <a href="receitas.html" class="nav-link itens">Receitas</a>
                     </li>
                     <li class="nav-item item-lista">
-                        <a href="#" class="nav-link itens">Notícias</a>
+                        <a href="agendamento-moana.html" class="nav-link itens" aria-current="page">Agendamento</a>
+                    </li>
+                    <li class="nav-item item-lista">
+                        <a href="notícia.html" class="nav-link itens active">Notícias</a>
                     </li>
                     <li class="nav-item item-lista">
                         <a href="#" class="nav-link itens">Fórum</a>
                     </li>
-                </ul>
+                </ul> 
                 <span id="dropdown-pessoa" class="navbar-text nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="imgitens" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <a class="nav-link dropdown-toggle ms-2" id="imgitens" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="img/a_disc/profile.png" alt="">
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="#">Perfil</a>
+                            <a class="dropdown-item" href="perfil.html">Perfil</a>
                         </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
+                        <li><hr class="dropdown-divider"></li>
                         <li>
                             <a class="dropdown-item" href="#">Sair</a>
                         </li>
@@ -103,7 +89,7 @@
             <h3 id="PergFreq">| Discussões Gerais |</h3>
             <div class="d-inline-flex">
                 <div id="imp" class="d-grid">
-                    <a href="" id="ali">
+                    <a href="noticia-base.html" id="ali">
                     <h3>Importância da nutrição na alimentação infantil</h3>
                 </a>
                 </div>

@@ -1,3 +1,5 @@
+@import url(navbar_pags.css);
+
 @media screen and (min-width: 577px) { /*Estilização para telas grandes*/
     #titulo{
         width: fit-content;

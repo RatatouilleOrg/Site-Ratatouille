@@ -1,0 +1,41 @@
+@import url(navbar_pags.css);
+
+.espaco-txt-barra {
+    height: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a p:hover {
+    text-decoration: underline;
+    color: var(--cor-seco);
+}
+
+/* Responsividade */
+/*Estilização para telas grandes*/
+@media screen and (min-width: 577px) { 
+    .grupo-de-2 {
+        display: inline-flex;
+        gap: 40px;
+    }
+
+    .cx-50 {
+        width: 50%;
+        margin: 40px 20px;
+    }
+}
+
+/*Estilização para telas pequenas*/
+@media screen and (max-width: 576px) { 
+    .grupo-de-2 {
+        display: grid;
+    }
+
+    .cx-50 {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+

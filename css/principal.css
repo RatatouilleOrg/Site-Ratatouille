@@ -14,6 +14,8 @@
 #cabecalho-topo {
     height: 910px;
     background-image: url('../img/principal/bg-tela_principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* -- Elementos do navegador */
 #main-nav {
@@ -187,7 +189,7 @@
 
 @media screen and (max-width: 576px) { /*Estilização para telas pequenas*/
     #cardbody{
-        margin: 2rem 0rem;
+        margin: 1rem 0rem;
     }
 
     .card {
@@ -214,9 +216,10 @@
 
     .cardR img {height: 100px; width: 100px;}
 
-    #holly {
-        width: 150px!important;
-        height: auto!important;
+    #holley {
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
     }
 
     #txt-logo {
@@ -236,6 +239,10 @@
     }
 
     #rodape-1 {
+        margin: 0 auto!important;
+    }
+
+    #sulivan {
         margin: 0 auto!important;
     }
 
